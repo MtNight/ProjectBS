@@ -4,34 +4,25 @@ using UnityEngine;
 
 public class CameraMove : MonoBehaviour {
 
-    private Vector3 moveVec;
-    private float moveSpeed;
+    private float xSensitivity;
+    private float ySensitivity;
 
-	void Start () {
-        moveVec = new Vector3(0, 0, 0);
-        moveSpeed = 2.0f;
-	}
-	
-	void Update ()
+    private Camera cam;
+    
+    void Start()
     {
-        moveVec = new Vector3(0, 0, 0);
-        if (Input.GetKey(KeyCode.W))
-        {
-            moveVec += Vector3.forward;
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            moveVec += Vector3.left;
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            moveVec += Vector3.back;
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            moveVec += Vector3.right;
-        }
+        xSensitivity = 90.0f;
+        ySensitivity = 90.0f;
 
-        transform.position += moveVec * moveSpeed * Time.deltaTime;
+        cam = transform.GetChild(0).GetComponent<Camera>();
+    }
+    
+    void Update()
+    {
+        float yRot = Input.GetAxis("Mouse X") * xSensitivity * Time.deltaTime;
+        float xRot = Input.GetAxis("Mouse Y") * ySensitivity * Time.deltaTime;
+        
+        this.transform.localRotation *= Quaternion.Euler(0, yRot, 0);
+        cam.transform.localRotation *= Quaternion.Euler(-xRot, 0, 0);//부호 주의
     }
 }
