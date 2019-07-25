@@ -13,7 +13,7 @@ public class PlayerMove : MonoBehaviour {
     void Start()
     {
         moveVec = new Vector3(0, 0, 0);
-        moveSpeed = 3.0f;
+        moveSpeed = 5.0f;
 
         playerForward = Vector3.forward;
     }
