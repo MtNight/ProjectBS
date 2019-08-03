@@ -13,16 +13,17 @@ public class PlayerMove : MonoBehaviour {
     void Start()
     {
         moveVec = new Vector3(0, 0, 0);
-        moveSpeed = 5.0f;
+        moveSpeed = 4.0f;
 
         playerForward = Vector3.forward;
     }
 
-    void Update()
+    private void FixedUpdate()
     {
         theta = -transform.localEulerAngles.y * Mathf.Deg2Rad;
         playerForward = new Vector3(-Mathf.Sin(theta), 0, Mathf.Cos(theta));
         moveVec = new Vector3(0, 0, 0);
+
         if (Input.GetKey(KeyCode.W))
         {
             moveVec += playerForward;
@@ -39,7 +40,22 @@ public class PlayerMove : MonoBehaviour {
         {
             moveVec -= new Vector3(-playerForward.z, 0, playerForward.x);
         }
+        moveVec = moveVec.normalized;
 
         transform.position += moveVec * moveSpeed * Time.deltaTime;
+        //this.GetComponent<Rigidbody>().AddForce(moveVec*moveSpeed*2);
+    }
+
+    void Update()
+    {
+
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Building")
+        {
+            Debug.Log("Col");
+        }
     }
 }
