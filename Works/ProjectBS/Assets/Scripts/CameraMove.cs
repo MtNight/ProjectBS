@@ -8,6 +8,7 @@ public class CameraMove : MonoBehaviour {
     private float ySensitivity;
 
     private Camera cam;
+    private GameObject phone;
     
     void Start()
     {
@@ -23,6 +24,12 @@ public class CameraMove : MonoBehaviour {
         float xRot = Input.GetAxis("Mouse Y") * ySensitivity * Time.deltaTime;
         
         this.transform.localRotation *= Quaternion.Euler(0, yRot, 0);
-        cam.transform.localRotation *= Quaternion.Euler(-xRot, 0, 0);//부호 주의
+
+        Quaternion angle = cam.transform.rotation;
+        angle *= Quaternion.Euler(-xRot, 0, 0);
+        if (!((int)angle.eulerAngles.x / 90 == 0 && angle.eulerAngles.x > 70) && !((int)angle.eulerAngles.x / 90 == 3 && angle.eulerAngles.x < 290))
+        {
+            cam.transform.localRotation *= Quaternion.Euler(-xRot, 0, 0);//부호 주의
+        }
     }
 }

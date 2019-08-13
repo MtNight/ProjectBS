@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraMove.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
+    <Compile Include="Assets\Scripts\ScreenShot.cs" />
     <Compile Include="Assets\Scripts\TestRotate.cs" />
     <None Include="Assets\Simple city plain\Read_me.txt" />
     <Reference Include="UnityEditor.StandardEvents">
