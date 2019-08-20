@@ -14,8 +14,8 @@ public class ScreenShot : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        resWidth = Screen.width / 2;
-        resHeight = Screen.height * 10 / 6;
+        resWidth = rt.width;
+        resHeight = rt.height;
         path = Application.dataPath + "/ScreenShot/";
         Debug.Log(path);
 
@@ -25,9 +25,9 @@ public class ScreenShot : MonoBehaviour
 
     private void Update()
     {
-        ClickScreenShot();
         if (Input.GetKeyDown(KeyCode.G))
         {
+            ClickScreenShot();
         }
     }
 
@@ -41,19 +41,19 @@ public class ScreenShot : MonoBehaviour
         string name;
         //name = path + System.DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss") + ".png";
         name = path + "Test.png";
-        //rt = new RenderTexture(resWidth, resHeight, 24);
+        RenderTexture r = new RenderTexture(resWidth, resHeight, 24);
         //RenderTexture origin = camera.targetTexture;
-        //camera.targetTexture = rt;
+        camera.targetTexture = r;
         Texture2D screenShot = new Texture2D(resWidth, resHeight, TextureFormat.RGB24, false);
         Rect rec = new Rect(0, 0, screenShot.width, screenShot.height);
         camera.Render();
-        //RenderTexture.active = rt;
+        RenderTexture.active = r;
         screenShot.ReadPixels(new Rect(0, 0, resWidth, resHeight), 0, 0);
         screenShot.Apply();
 
         byte[] bytes = screenShot.EncodeToPNG();
         File.WriteAllBytes(name, bytes);
-        //camera.targetTexture = origin;
+        camera.targetTexture = rt;
         Debug.Log("shot!");
         //transform.GetChild(0).gameObject.te
     }
