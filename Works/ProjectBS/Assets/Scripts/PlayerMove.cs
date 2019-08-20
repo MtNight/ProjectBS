@@ -42,8 +42,8 @@ public class PlayerMove : MonoBehaviour {
         }
         moveVec = moveVec.normalized;
 
-        transform.position += moveVec * moveSpeed * Time.deltaTime;
-        //this.GetComponent<Rigidbody>().AddForce(moveVec*moveSpeed*2);
+        //transform.position += moveVec * moveSpeed * Time.deltaTime;
+        this.GetComponent<Rigidbody>().AddForce(moveVec*moveSpeed, ForceMode.Impulse);
     }
 
     void Update()
