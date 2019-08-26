@@ -45,7 +45,7 @@ public class ScreenShot : MonoBehaviour
         //RenderTexture origin = camera.targetTexture;
         camera.targetTexture = r;
         Texture2D screenShot = new Texture2D(resWidth, resHeight, TextureFormat.RGB24, false);
-        Rect rec = new Rect(0, 0, screenShot.width, screenShot.height);
+        //Rect rec = new Rect(0, 0, screenShot.width, screenShot.height);
         camera.Render();
         RenderTexture.active = r;
         screenShot.ReadPixels(new Rect(0, 0, resWidth, resHeight), 0, 0);
