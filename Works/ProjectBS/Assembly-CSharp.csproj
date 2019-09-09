@@ -62,9 +62,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraMove.cs" />
+    <Compile Include="Assets\Scripts\PhoneGallary.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\ScreenShot.cs" />
-    <Compile Include="Assets\Scripts\TestRotate.cs" />
     <None Include="Assets\Cities\Simple city plain\Read_me.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/eskwo/OneDrive/사진/판도라큐브/ProjectBS/Project/Works/ProjectBS/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

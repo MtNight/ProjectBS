@@ -8,7 +8,7 @@ public class CameraMove : MonoBehaviour {
     private float ySensitivity;
 
     private Camera cam;
-    private GameObject phone;
+    //private GameObject phone;
     
     void Start()
     {
@@ -25,9 +25,11 @@ public class CameraMove : MonoBehaviour {
         
         this.transform.localRotation *= Quaternion.Euler(0, yRot, 0);
 
-        Quaternion angle = cam.transform.rotation;
-        angle *= Quaternion.Euler(-xRot, 0, 0);
-        if (!((int)angle.eulerAngles.x / 90 == 0 && angle.eulerAngles.x > 70) && !((int)angle.eulerAngles.x / 90 == 3 && angle.eulerAngles.x < 290))
+        Quaternion tmpAngle = cam.transform.rotation;
+        tmpAngle *= Quaternion.Euler(-xRot, 0, 0);
+        bool bDownLimit = ((int)tmpAngle.eulerAngles.x / 90 == 0 && tmpAngle.eulerAngles.x > 70);
+        bool bUpLimit = ((int) tmpAngle.eulerAngles.x / 90 == 3 && tmpAngle.eulerAngles.x < 290);
+        if (!bUpLimit && !bDownLimit)
         {
             cam.transform.localRotation *= Quaternion.Euler(-xRot, 0, 0);//부호 주의
         }

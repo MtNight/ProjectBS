@@ -22,9 +22,9 @@ GameObject:
   - component: {fileID: 33870935715243592}
   - component: {fileID: 23567883995038022}
   - component: {fileID: 64348132651056050}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: street
-  m_TagString: Untagged
+  m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37,9 +37,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4210084119734192}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Street 1 Prefab
-  m_TagString: Untagged
+  m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
