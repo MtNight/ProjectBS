@@ -10613,7 +10613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e7bf55e7e163144dbd9fc0074304e72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camera: {fileID: 824331535}
+  cam: {fileID: 824331531}
   rt: {fileID: 8400000, guid: fa9c2fa208ffb114d93e217a5213b001, type: 2}
 --- !u!20 &282840813
 Camera:
@@ -13033,8 +13033,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.5, y: 1.5, z: 4}
+  m_Center: {x: 0, y: 0, z: 1.5}
 --- !u!23 &322391678
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33053,7 +33053,7 @@ Camera:
     y: 0
     width: 3
     height: 4
-  near clip plane: 0.3
+  near clip plane: 0.2
   far clip plane: 1000
   field of view: 60
   orthographic: 0
@@ -59611,8 +59611,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.5, y: 1.5, z: 4}
+  m_Center: {x: 0, y: 0, z: 1.5}
 --- !u!23 &1438628245
 MeshRenderer:
   m_ObjectHideFlags: 0

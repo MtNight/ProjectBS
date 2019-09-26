@@ -12,6 +12,8 @@ public class CameraMove : MonoBehaviour {
     
     void Start()
     {
+        Cursor.visible = false;
+
         xSensitivity = 90.0f;
         ySensitivity = 90.0f;
 

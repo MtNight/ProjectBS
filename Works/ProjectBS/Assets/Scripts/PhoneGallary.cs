@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PhoneGallary : MonoBehaviour {
 
-    private GameObject phoneCam, phoneGallay, camCanvas, phoneCanvas;
+    private GameObject /*phoneCam, phoneGallay,*/ camCanvas, phoneCanvas;
     private GameObject gallarySeleted, gallaryScroll;
     //public List<string> gallaryPath = new List<string>();
     public List<Texture2D> gallaryImages = new List<Texture2D>();
@@ -16,8 +16,8 @@ public class PhoneGallary : MonoBehaviour {
     public bool isGallary;
 
 	void Start () {
-        phoneCam = transform.GetChild(0).gameObject;
-        phoneGallay = transform.GetChild(1).gameObject;
+        //phoneCam = transform.GetChild(0).gameObject;
+        //phoneGallay = transform.GetChild(1).gameObject;
         camCanvas = transform.GetChild(2).gameObject;
         phoneCanvas = transform.GetChild(3).gameObject;
         gallarySeleted = phoneCanvas.transform.GetChild(0).gameObject;
@@ -66,7 +66,7 @@ public class PhoneGallary : MonoBehaviour {
         {
             camCanvas.SetActive(false);
             phoneCanvas.SetActive(true);
-            ImageLoad();
+            ImageLoad(gallaryImages.Count - 1);
         }
         else
         {
@@ -81,38 +81,36 @@ public class PhoneGallary : MonoBehaviour {
         //gallaryPath.Add(path);
         gallaryImages.Add(SS);
     }
-    public void ImageLoad()
+    public void ImageLoad(int idx)
     {
         if (gallaryImages.Count <= 0) { return; }
+        RefreshSelectedImage(idx);
 
-        RefreshSelectedImage(gallaryImages.Count - 1);
-
-        if (true || gallaryImages.Count != gallaryScrolls.Count)
+        //delete every scroll picture
+        for (int i = gallaryScrolls.Count - 1; i >= 0; i--)
         {
-            //delete every scroll picture
-            for (int i = gallaryScrolls.Count - 1; i >= 0; i--)
-            {
-                Destroy(gallaryScrolls[i]);
-            }
-            gallaryScrolls.Clear();
+            Destroy(gallaryScrolls[i]);
+        }
+        gallaryScrolls.Clear();
 
-            for (int i = gallaryImages.Count - 1; i >= 0; i--)
-            {
-                GameObject g = Instantiate(scrollImagePrefeb, new Vector3(0, 0, 0), Quaternion.identity);
-                g.transform.SetParent(phoneCanvas.gameObject.transform);
-                g.GetComponent<RectTransform>().localPosition = new Vector3(0, -580, 0);
-                g.GetComponent<RectTransform>().localEulerAngles = new Vector3(0, 0, 0);
-                g.GetComponent<RectTransform>().localScale = new Vector3(3.5f, 3.5f, 1);
-                Texture2D tmp = gallaryImages[i];
-                g.GetComponent<Image>().sprite = Sprite.Create(tmp, new Rect(0, 0, tmp.width, tmp.height), new Vector2(0.5f, 0.5f));
-                gallaryScrolls.Add(g);
-            }
+        for (int i = gallaryImages.Count - 1; i >= 0; i--)
+        {
+            GameObject g = Instantiate(scrollImagePrefeb, new Vector3(0, 0, 0), Quaternion.identity);
+            g.transform.SetParent(phoneCanvas.gameObject.transform);
+            g.GetComponent<RectTransform>().localPosition = new Vector3(0, -580, 0);
+            g.GetComponent<RectTransform>().localEulerAngles = new Vector3(0, 0, 0);
+            g.GetComponent<RectTransform>().localScale = new Vector3(3.5f, 3.5f, 1);
+            Texture2D tmp = gallaryImages[i];
+            g.GetComponent<Image>().sprite = Sprite.Create(tmp, new Rect(0, 0, tmp.width, tmp.height), new Vector2(0.5f, 0.5f));
+            gallaryScrolls.Add(g);
         }
         SetScrollImages();
     }
     void RefreshSelectedImage(int idx)
     {
         selectNum = idx;
+        if (selectNum >= gallaryImages.Count) selectNum = gallaryImages.Count - 1;
+        if (selectNum < 0) selectNum = 0;
         Texture2D t = gallaryImages[selectNum];
         gallarySeleted.GetComponent<Image>().sprite = Sprite.Create(t, new Rect(0, 0, t.width, t.height), new Vector2(0.5f, 0.5f));
    
@@ -126,9 +124,9 @@ public class PhoneGallary : MonoBehaviour {
     }
     void DeletePicture(int idx)
     {
+        if (gallaryImages.Count <= 0) { return; }
         Destroy(gallaryImages[idx]);
         gallaryImages.RemoveAt(idx);
-        if (selectNum >= gallaryImages.Count) selectNum = gallaryImages.Count - 1;
-        ImageLoad();
+        ImageLoad(idx);
     }
 }
