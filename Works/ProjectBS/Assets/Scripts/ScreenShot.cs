@@ -25,7 +25,7 @@ public class ScreenShot : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G))
+        if (Input.GetKeyDown(KeyCode.G) || Input.GetMouseButtonDown(0))
         {
             if (!phone.GetComponent<PhoneGallary>().isGallary)
             {
