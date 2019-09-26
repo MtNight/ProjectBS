@@ -12,6 +12,7 @@ public class PhoneGallary : MonoBehaviour {
     public List<GameObject> gallaryScrolls = new List<GameObject>();
     private GameObject scrollImagePrefeb;
 
+    int selectNum = 0;
     public bool isGallary;
 
 	void Start () {
@@ -20,7 +21,6 @@ public class PhoneGallary : MonoBehaviour {
         camCanvas = transform.GetChild(2).gameObject;
         phoneCanvas = transform.GetChild(3).gameObject;
         gallarySeleted = phoneCanvas.transform.GetChild(0).gameObject;
-        gallaryScrolls.Add(phoneCanvas.transform.GetChild(1).gameObject);
         scrollImagePrefeb = Resources.Load("Prefebs/ScrolledImage") as GameObject;
 
         isGallary = false;
@@ -32,7 +32,33 @@ public class PhoneGallary : MonoBehaviour {
             isGallary = !isGallary;
             ToggleGallary();
         }
-	}
+
+        if (isGallary == true)
+        {
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                DeletePicture(selectNum);
+            }
+
+            float wheelInput = Input.GetAxis("Mouse ScrollWheel");
+            if (wheelInput > 0)
+            {
+                if (selectNum < gallaryImages.Count - 1)
+                {
+                    RefreshSelectedImage(selectNum + 1); SetScrollImages();
+                    //Debug.Log("Up");
+                }
+            }
+            else if (wheelInput < 0)
+            {
+                if (selectNum > 0)
+                {
+                    RefreshSelectedImage(selectNum - 1);SetScrollImages();
+                    //Debug.Log("Down");
+                }
+            }
+        }
+    }
 
     private void ToggleGallary()
     {
@@ -59,24 +85,50 @@ public class PhoneGallary : MonoBehaviour {
     {
         if (gallaryImages.Count <= 0) { return; }
 
-        Texture2D t = gallaryImages[gallaryImages.Count - 1];
-        gallarySeleted.GetComponent<Image>().sprite = Sprite.Create(t, new Rect(0, 0, t.width, t.height), new Vector2(0.5f, 0.5f));
+        RefreshSelectedImage(gallaryImages.Count - 1);
 
-        if (gallaryImages.Count != gallaryScrolls.Count)
+        if (true || gallaryImages.Count != gallaryScrolls.Count)
         {
+            //delete every scroll picture
+            for (int i = gallaryScrolls.Count - 1; i >= 0; i--)
+            {
+                Destroy(gallaryScrolls[i]);
+            }
             gallaryScrolls.Clear();
+
             for (int i = gallaryImages.Count - 1; i >= 0; i--)
             {
                 GameObject g = Instantiate(scrollImagePrefeb, new Vector3(0, 0, 0), Quaternion.identity);
                 g.transform.SetParent(phoneCanvas.gameObject.transform);
-                g.GetComponent<RectTransform>().localPosition = new Vector3(-400 + (gallaryImages.Count - i - 1) * 400, -580, 0);
+                g.GetComponent<RectTransform>().localPosition = new Vector3(0, -580, 0);
                 g.GetComponent<RectTransform>().localEulerAngles = new Vector3(0, 0, 0);
                 g.GetComponent<RectTransform>().localScale = new Vector3(3.5f, 3.5f, 1);
                 Texture2D tmp = gallaryImages[i];
                 g.GetComponent<Image>().sprite = Sprite.Create(tmp, new Rect(0, 0, tmp.width, tmp.height), new Vector2(0.5f, 0.5f));
-                
+                gallaryScrolls.Add(g);
             }
         }
-
+        SetScrollImages();
+    }
+    void RefreshSelectedImage(int idx)
+    {
+        selectNum = idx;
+        Texture2D t = gallaryImages[selectNum];
+        gallarySeleted.GetComponent<Image>().sprite = Sprite.Create(t, new Rect(0, 0, t.width, t.height), new Vector2(0.5f, 0.5f));
+   
+    }
+    void SetScrollImages()
+    {
+        for (int i = gallaryScrolls.Count - 1; i >= 0; i--)
+        {
+            gallaryScrolls[i].GetComponent<RectTransform>().localPosition = new Vector3((i - (gallaryScrolls.Count - selectNum - 1)) * 400, -580, 0);
+        }
+    }
+    void DeletePicture(int idx)
+    {
+        Destroy(gallaryImages[idx]);
+        gallaryImages.RemoveAt(idx);
+        if (selectNum >= gallaryImages.Count) selectNum = gallaryImages.Count - 1;
+        ImageLoad();
     }
 }
