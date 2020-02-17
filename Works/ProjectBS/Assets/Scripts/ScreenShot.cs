@@ -13,6 +13,8 @@ public class ScreenShot : MonoBehaviour
     private int resWidth;
     private int resHeight;
     string path;
+
+    public LayerMask capturable;
     
     void Start()
     {
@@ -55,5 +57,26 @@ public class ScreenShot : MonoBehaviour
         cam.GetComponent<Camera>().targetTexture = rt;
         Debug.Log("shot!");
         phone.GetComponent<PhoneGallary>().ImageSave(name, screenShot);
+
+        Ray Ray;
+        RaycastHit hit;
+        int w = cam.GetComponent<Camera>().pixelWidth;
+        int h = cam.GetComponent<Camera>().pixelHeight;
+        int cnt = 0;
+        for (int y = 0; y < 10; y++)
+        {
+            for (int x = 0; x < 10; x++)
+            {
+                Ray = cam.GetComponent<Camera>().ScreenPointToRay(new Vector3(w/20.0f + x*w/10.0f, h/20.0f + y*h/10.0f, 0));
+                if (Physics.Raycast(Ray, out hit, 64, capturable) && hit.transform.tag=="Capturable")
+                {
+                    Debug.Log(hit.transform.name);
+                    
+                    cnt++;
+                }
+                Debug.DrawRay(Ray.origin, Ray.direction * 64, Color.red, 0.3f);
+            }
+        }
+        Debug.Log(cnt);
     }
 }
