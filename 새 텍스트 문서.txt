@@ -1,0 +1,34 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class MissionUI : MonoBehaviour {
+
+    GameObject[] texts = new GameObject[5];
+    string[] str = new string[5];
+    bool[] clear = new bool[5];
+
+    int num = 3;
+	void Start ()
+    {
+        str[0] = "a hamburger shop";
+        str[1] = "a trash bag";
+        str[2] = "a street seller";
+        for (int i = 0; i < num; i++)
+        {
+            texts[i] = this.transform.GetChild(i+1).gameObject;
+            texts[i].GetComponent<Text>().text = "- Take a picture with " + str[0];
+            clear[i] = false;
+        }
+	}
+
+    void ClearObjective(int objNum)
+    {
+        clear[objNum] = true;
+    }
+
+    void ClearMisson()
+    {
+    }
+}
