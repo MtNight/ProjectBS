@@ -27,6 +27,9 @@ public class PhoneGallary : MonoBehaviour {
     }
 	
 	void Update () {
+        //Vector3 tmp = transform.rotation.eulerAngles;
+        //tmp.z += Time.deltaTime*10;
+        //transform.rotation = Quaternion.Euler(tmp);
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             isGallary = !isGallary;

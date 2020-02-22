@@ -10,10 +10,14 @@ public class PlayerMove : MonoBehaviour {
     public Vector3 playerForward;
     public float theta;
 
+    public GameObject MissionPanel;
+    Vector3 endPoint;
+    bool bLCompleteMision=false;
+
     void Start()
     {
         moveVec = new Vector3(0, 0, 0);
-        moveSpeed = 4.0f;
+        moveSpeed = 6.0f;
 
         playerForward = Vector3.forward;
     }
@@ -42,13 +46,26 @@ public class PlayerMove : MonoBehaviour {
         }
         moveVec = moveVec.normalized;
 
+
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            moveVec = moveVec * 2;
+        }
         //transform.position += moveVec * moveSpeed * Time.deltaTime;
-        this.GetComponent<Rigidbody>().AddForce(moveVec*moveSpeed, ForceMode.Impulse);
+        this.GetComponent<Rigidbody>().AddForce(moveVec * moveSpeed, ForceMode.Impulse);
     }
 
     void Update()
     {
-
+        if (bLCompleteMision)
+        {
+            //Debug.Log(Vector3.Distance(transform.position, endPoint));
+            if (Vector3.Distance(transform.position, endPoint) < 2)
+            {
+                MissionPanel.GetComponent<MissionUI>().ArriveAtEndPoint();
+                bLCompleteMision = false;
+            }
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -57,5 +74,11 @@ public class PlayerMove : MonoBehaviour {
         {
             Debug.Log("Col");
         }
+    }
+
+    public void CompleteMission(Vector3 ep)
+    {
+        endPoint = ep;
+        bLCompleteMision = true;
     }
 }

@@ -15,7 +15,8 @@ public class ScreenShot : MonoBehaviour
     string path;
 
     public LayerMask capturable;
-    
+    public GameObject MissionPanel;
+
     void Start()
     {
         phone = transform.GetChild(0).gameObject;
@@ -67,12 +68,21 @@ public class ScreenShot : MonoBehaviour
         {
             for (int x = 0; x < 10; x++)
             {
-                Ray = cam.GetComponent<Camera>().ScreenPointToRay(new Vector3(w/20.0f + x*w/10.0f, h/20.0f + y*h/10.0f, 0));
-                if (Physics.Raycast(Ray, out hit, 64, capturable) && hit.transform.tag=="Capturable")
+                Ray = cam.GetComponent<Camera>().ScreenPointToRay(new Vector3(w / 20.0f + x * w / 10.0f, h / 20.0f + y * h / 10.0f, 0));
+                if (Physics.Raycast(Ray, out hit, 64, capturable) && hit.transform.tag == "Capturable")
                 {
-                    Debug.Log(hit.transform.name);
-                    
+
                     cnt++;
+                    if (cnt >= 25)
+                    {
+                        Debug.Log(hit.transform.name);
+                        switch (hit.transform.name)
+                        {
+                            case "Shop_C": MissionPanel.GetComponent<MissionUI>().ClearObjective(0, true); break;
+                            case "trashBag": MissionPanel.GetComponent<MissionUI>().ClearObjective(1, true); break;
+                            case "StreetSellerStand": MissionPanel.GetComponent<MissionUI>().ClearObjective(2, true); break;
+                        }
+                    }
                 }
                 Debug.DrawRay(Ray.origin, Ray.direction * 64, Color.red, 0.3f);
             }
