@@ -6,33 +6,26 @@ using UnityEngine.UI;
 public class MissionUI : MonoBehaviour {
 
     public GameObject Player;
+    public GameObject MissionManager;
+    public MissionObject[][] mObjects;
 
-    GameObject[] texts = new GameObject[10];
-    string[] str = new string[10];
-    bool[] clear = new bool[10];
+    GameObject[] uiTexts = new GameObject[10];
+    string[] missionObjectName = new string[10];
+    bool[] isClearMission = new bool[10];
     Vector3 EndPoint;
-
-    int num = 3;
+    
     int missionCnt = 0;
 
     float UIspeed = 400;
-    bool bLisUIOpen = true;
+    bool isUIOpen = true;
     float UIX;
     float UIXposition;
 
 	void Start ()
     {
+        MissionManager = transform.parent.parent.gameObject;
         UIXposition = GetComponent<RectTransform>().localPosition.x;
-        str[0] = "a hamburger shop";
-        str[1] = "a trash bag";
-        str[2] = "a street seller";
-        for (int i = 0; i < num; i++)
-        {
-            texts[i] = this.transform.GetChild(i+1).gameObject;
-            texts[i].GetComponent<Text>().text = "Take a picture with " + str[i];
-            clear[i] = false;
-        }
-        texts[num] = this.transform.GetChild(num+1).gameObject;
+        SetMission();
 
         EndPoint = new Vector3(7, 3, 755);
     }
@@ -43,10 +36,10 @@ public class MissionUI : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            bLisUIOpen = !bLisUIOpen;
-            Debug.Log("test" + bLisUIOpen);
+            isUIOpen = !isUIOpen;
+            Debug.Log("test" + isUIOpen);
         }
-        if (bLisUIOpen)
+        if (isUIOpen)
         {
             UIX = GetComponent<RectTransform>().localPosition.x;
             if (UIX < UIXposition)
@@ -74,27 +67,39 @@ public class MissionUI : MonoBehaviour {
         tmp.x = UIX;
         GetComponent<RectTransform>().localPosition = tmp;
     }
+    public void SetMission()
+    {
+        mObjects = MissionManager.GetComponent<MissionRead>().missionObjects;
+        for (int i = 0; i < mObjects.Length; i++)
+        {
+            missionObjectName[i] = mObjects[i][0].GetName();
+            uiTexts[i] = transform.GetChild(i + 1).gameObject;
+            uiTexts[i].GetComponent<Text>().text = "Take a picture with a " + missionObjectName[i];
+            isClearMission[i] = false;
+        }
+        uiTexts[mObjects.Length] = transform.GetChild(mObjects.Length + 1).gameObject;
+    }
 
     public void ClearObjective(int objNum, bool stat)
     {
-        if (clear[objNum] != stat)
+        if (isClearMission[objNum] != stat)
         {
-            clear[objNum] = stat;
+            isClearMission[objNum] = stat;
         }
         else { return; }
         if (stat)
         {
-            texts[objNum].GetComponent<Text>().color = Color.red;
+            uiTexts[objNum].GetComponent<Text>().color = Color.red;
             missionCnt++;
         }
         else
         {
-            texts[objNum].GetComponent<Text>().color = Color.red;
+            uiTexts[objNum].GetComponent<Text>().color = Color.red;
             missionCnt--;
         }
-        texts[objNum].transform.GetChild(0).gameObject.GetComponent<Toggle>().isOn = stat;
+        uiTexts[objNum].transform.GetChild(0).gameObject.GetComponent<Toggle>().isOn = stat;
 
-        if (missionCnt == num)
+        if (missionCnt == mObjects.Length)
         {
             ClearMisson();
         }
@@ -102,12 +107,12 @@ public class MissionUI : MonoBehaviour {
 
     public void ArriveAtEndPoint()
     {
-        texts[num].GetComponent<Text>().color = Color.red;
-        texts[num].transform.GetChild(0).gameObject.GetComponent<Toggle>().isOn = true;
+        uiTexts[mObjects.Length].GetComponent<Text>().color = Color.red;
+        uiTexts[mObjects.Length].transform.GetChild(0).gameObject.GetComponent<Toggle>().isOn = true;
     } 
     void ClearMisson()
     {
-        texts[num].SetActive(true);
+        uiTexts[mObjects.Length].SetActive(true);
         Player.GetComponent<PlayerMove>().CompleteMission(EndPoint);
     }
 }

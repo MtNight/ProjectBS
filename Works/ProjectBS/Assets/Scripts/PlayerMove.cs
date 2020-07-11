@@ -12,7 +12,7 @@ public class PlayerMove : MonoBehaviour {
 
     public GameObject MissionPanel;
     Vector3 endPoint;
-    bool bLCompleteMision=false;
+    bool isCompleteMision=false;
 
     void Start()
     {
@@ -57,13 +57,13 @@ public class PlayerMove : MonoBehaviour {
 
     void Update()
     {
-        if (bLCompleteMision)
+        if (isCompleteMision)
         {
             //Debug.Log(Vector3.Distance(transform.position, endPoint));
             if (Vector3.Distance(transform.position, endPoint) < 2)
             {
                 MissionPanel.GetComponent<MissionUI>().ArriveAtEndPoint();
-                bLCompleteMision = false;
+                isCompleteMision = false;
             }
         }
     }
@@ -79,6 +79,6 @@ public class PlayerMove : MonoBehaviour {
     public void CompleteMission(Vector3 ep)
     {
         endPoint = ep;
-        bLCompleteMision = true;
+        isCompleteMision = true;
     }
 }

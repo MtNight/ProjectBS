@@ -4,6 +4,9 @@ using UnityEngine;
 using System.IO;
 using UnityEngine.UI;
 
+/* ClickScreenShot 함수 조기종료 필요
+ */
+
 public class ScreenShot : MonoBehaviour
 {
     public GameObject cam;       //보여지는 카메라.
@@ -19,7 +22,7 @@ public class ScreenShot : MonoBehaviour
 
     void Start()
     {
-        phone = transform.GetChild(0).gameObject;
+        phone = transform.parent.GetChild(1).gameObject;
         resWidth = rt.width;
         resHeight = rt.height;
         path = Application.dataPath + "/Resources/ScreenShot/";
@@ -75,14 +78,20 @@ public class ScreenShot : MonoBehaviour
                     cnt++;
                     if (cnt >= 25)
                     {
-                        Debug.Log(hit.transform.name);
-                        switch (hit.transform.name)
+                        MissionObject[][] mObjects = MissionPanel.GetComponent<MissionUI>().mObjects;
+                        for (int i = 0; i < mObjects.Length; i++)
                         {
-                            case "Shop_C": MissionPanel.GetComponent<MissionUI>().ClearObjective(0, true); break;
-                            case "trashBag": MissionPanel.GetComponent<MissionUI>().ClearObjective(1, true); break;
-                            case "StreetSellerStand": MissionPanel.GetComponent<MissionUI>().ClearObjective(2, true); break;
+                            Debug.Log(hit.transform.name + ", " + mObjects[i][0].GetPrefabName());
+                            bool isMissionObject1 = hit.transform.name.Equals(mObjects[i][0].GetPrefabName());
+                            bool isMissionObject2 = hit.transform.name.Equals(mObjects[i][0].GetPrefabName() + "_1");   //나중에 확인해보고 필요 없다면 지울 수 있음.
+                            if (isMissionObject1 || isMissionObject2)
+                            {
+                                MissionPanel.GetComponent<MissionUI>().ClearObjective(i, true);
+                                break;
+                            }
                         }
                     }
+                    //return;
                 }
                 Debug.DrawRay(Ray.origin, Ray.direction * 64, Color.red, 0.3f);
             }

@@ -11,6 +11,7 @@ public class PhoneGallary : MonoBehaviour {
     public List<Texture2D> gallaryImages = new List<Texture2D>();
     public List<GameObject> gallaryScrolls = new List<GameObject>();
     private GameObject scrollImagePrefeb;
+    private GameObject mainCamera;
 
     int selectNum = 0;
     public bool isGallary;
@@ -22,14 +23,28 @@ public class PhoneGallary : MonoBehaviour {
         phoneCanvas = transform.GetChild(3).gameObject;
         gallarySeleted = phoneCanvas.transform.GetChild(0).gameObject;
         scrollImagePrefeb = Resources.Load("Prefebs/ScrolledImage") as GameObject;
+        mainCamera = transform.parent.gameObject;
 
         isGallary = false;
+
     }
-	
-	void Update () {
-        //Vector3 tmp = transform.rotation.eulerAngles;
-        //tmp.z += Time.deltaTime*10;
-        //transform.rotation = Quaternion.Euler(tmp);
+
+    void Update ()
+    {
+        if (Input.GetMouseButton(1))    //right button
+        {
+            Vector3 tmpRot = transform.rotation.eulerAngles;
+            tmpRot.z = Mathf.Lerp(tmpRot.z, 270, Time.deltaTime * 5);
+            transform.rotation = Quaternion.Euler(tmpRot);
+        }
+        else
+        {
+            Vector3 tmp = transform.rotation.eulerAngles;
+            tmp.z = Mathf.Lerp(tmp.z, 180, Time.deltaTime * 5);
+            transform.rotation = Quaternion.Euler(tmp);
+        }
+
+
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             isGallary = !isGallary;
@@ -124,6 +139,10 @@ public class PhoneGallary : MonoBehaviour {
         {
             gallaryScrolls[i].GetComponent<RectTransform>().localPosition = new Vector3((i - (gallaryScrolls.Count - selectNum - 1)) * 400, -580, 0);
         }
+    }
+    void ConfirmDeletion(int idx)
+    {
+
     }
     void DeletePicture(int idx)
     {
