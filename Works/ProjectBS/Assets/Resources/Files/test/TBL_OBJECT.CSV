@@ -1,0 +1,163 @@
+??????,???? ????,???? ????,???? ????,?????? ???? ????,?????? ???? ????,?????? ????,???? ????,?????? ????,????,????
+index,is_active,asset,object_type,object_species,object_number,prefab_name,nickname_eng,nickname_kor,color,comment
+11011,1,1,1,1,1,Bank,bank,,,
+11021,1,1,1,2,1,Build_G-Left_Prefab,,,,
+11022,1,1,1,2,2,Build_G-middle_Prefab,,,,
+11023,1,1,1,2,3,Build_G-right_Prefab,,,,
+11031,1,1,1,3,1,Building_A1_prefab,,,,
+11032,1,1,1,3,2,Building_A_prefab,,,,10?? ????
+11041,1,1,1,4,1,Building_B_prefab,,,,???? ???? ???? ???? ????
+11042,1,1,1,4,2,Building_B1_prefab,,,,
+11051,1,1,1,5,1,Building_C1_prefab,,,,8?? ????. ???? ?????? ????
+11061,1,1,1,6,1,Building_D1_prefab,,,,5??????. ???????? ????
+11061,1,1,1,6,1,Building_D_prefab,,,,
+11071,1,1,1,7,1,Building_E_prefab,,,,???? ???? ???? ????
+11081,1,1,1,8,1,Building_F_prefab,,,,1?? ??????
+11091,1,1,1,9,1,Building_G_prefab,,,,
+11101,1,1,1,10,1,Building_H_prefab,,,yellow,6??????? 7??????? ??????
+11111,1,1,1,11,1,Building_I_1_prefab,,???????? ???? ????,pink,???? ???? ????. 1???? ????
+11112,1,1,1,11,2,Building_I_2_prefab,,,pink,
+11113,1,1,1,11,3,Building_I_3_prefab,variety store,,yellow,
+11121,1,1,1,12,1,Building_J_prefab,,,,
+11131,1,1,1,13,1,Building_K_prefab,,,,?????? ????
+11141,1,1,1,14,1,Building_L_prefab,,,,
+11151,1,1,1,15,1,Building_M_prefab,,,,???? ???? 3?? ??????
+11161,1,1,1,16,1,Building_N_prefab,,,,
+11171,1,1,1,17,1,Building_O_prefab,,,,?????? ?????? 2????? ???? ????
+11181,1,1,1,18,1,Building_p_prefab,,,,?????? ?????? ?? ???? ???? ???? 1?? ??????
+11191,1,1,1,19,1,Building_Q_prefab,,,,???????? 2?? ??
+11201,1,1,1,20,1,Building_R_prefab,,,,???????? 3?? ?????
+11211,1,1,1,21,1,Building_S_prefab,,,,
+11221,1,1,1,22,1,Building_T_prefab,,,,
+11231,1,1,1,23,1,Building_U_prefab,,,,
+11241,1,1,1,24,1,Building_V_prefab,,,,
+11251,1,1,1,25,1,Building_W_prefab,,,,
+11261,1,1,1,26,1,Building_X_prefab,,,,
+11271,1,1,1,27,1,Building_Y_prefab,,,,
+11281,1,1,1,28,1,Building_Z_prefab,,,,?????? 4?? ????
+11052,1,1,1,5,2,Building_C_prefab 1,,,,
+11291,1,1,1,29,1,Car_repair_prefab,,,,
+11301,1,1,1,30,1,Fire_department_prefab,,,,
+11311,1,1,1,31,1,Gas_station_A_PREFAB,,,,
+11321,1,1,1,32,1,Hospital_prefab,,,,
+11331,1,1,1,33,1,Motel_prefab,,,,
+11341,1,1,1,34,1,Parking_checkOut_prefab,,,,
+11351,1,1,1,35,1,Police_station_prefab,,,,
+11361,1,1,1,36,1,Shop_A_prefab,,,,???????? ?????? ?????? ?????? ????????
+11362,1,1,1,36,2,Shop_B_prefab,,,,?????? ???? ???? 3?? ????????
+11363,1,1,1,36,3,Shop_C,Hamburger Shop,,,?????? ????
+11371,1,1,1,37,1,Supermaket_prefab,,,,
+12011,1,1,2,1,1,Lamp_1,lamp,,,
+12012,1,1,2,1,2,Lamp_2,lamp,,,
+12013,1,1,2,1,3,Lamp_3,lamp,,,
+12014,1,1,2,1,4,Lamp_4,lamp,,,
+12015,1,1,2,1,5,Lamp_5,lamp,,,
+12016,1,1,2,1,6,Lamp_6,lamp,,,
+12017,1,1,2,1,7,Lamp_7,lamp,,,
+12021,1,1,2,2,1,street lamp 2 prefab,,,,
+13011,1,1,3,1,1,air conditioner roof Prefab,,,,
+13012,1,1,3,1,2,air conditioner wall Prefab,,,,
+13021,1,1,3,2,1,ATM,ATM,,,
+13031,1,1,3,3,1,Bank_sign Prefab,,,,
+13041,1,1,3,4,1,Bench 2 prefab,,,,
+13042,1,1,3,4,2,bench prefab,,,,
+13051,1,1,3,5,1,Big_trash_bin prefab,big trash bin,,,?? ????????
+13052,1,1,3,5,2,Bin prefab,,,,
+13061,1,1,3,6,1,burger prefab,,,,
+13062,1,1,3,6,2,BurgerSho_Sign prefab,,,,
+13071,1,1,3,7,1,Bus stop pole prefabe,,,,
+13072,1,1,3,7,2,Bus stop prefab,,,,
+13081,1,1,3,8,1,Bush 2 mass prefab,,,,
+13082,1,1,3,8,2,Bush 2 prefab,,,,
+13083,1,1,3,8,3,bush prefab,,,,
+13091,1,1,3,9,1,Can_cola 1 prefab,,,,
+13092,1,1,3,9,2,Can_cola 2 prefab,,,,
+13093,1,1,3,9,3,Can_lemon prefab,,,,
+13094,1,1,3,9,4,Can_orange prefab,,,,
+13095,1,1,3,9,5,ColoMachine prefab,,,,
+13101,1,1,3,10,1,drain 1 prefab,,,,
+13102,1,1,3,10,2,drain 2 prefab,,,,
+13111,1,1,3,11,1,Dynamic_power_pole_cable prefab,,,,???????? ?????????
+13121,1,1,3,12,1,electrcity box prefab,,,,
+13131,1,1,3,13,1,fence c prefab,,,,
+13132,1,1,3,13,2,Fence_B_1 prefab,,,,
+13133,1,1,3,13,3,Fence_B_2 prefab,,,,
+13141,1,1,3,14,1,Flower 1 prefab A,,,,
+13142,1,1,3,14,2,Flower 1 prefab B,,,,
+13143,1,1,3,14,3,Flower 1 prefab C,,,,
+13144,1,1,3,14,4,Flower 1 prefab D,,,,
+13145,1,1,3,14,5,Flower 1 prefab E,,,,
+13146,1,1,3,14,6,Flower 1 prefab F,,,,
+13147,1,1,3,14,7,Flower 1 prefab G,,,,
+13148,1,1,3,14,8,Flower 1 prefab H,,,,
+13151,1,1,3,15,1,flower 2 prefab,,,,
+13161,1,1,3,16,1,flower 3 prefab,,,,
+13171,1,1,3,17,1,Flower mass prefab,,,,
+13181,1,1,3,18,1,GlassCola prefab,,,,
+13182,1,1,3,18,2,Grass mass_prefab,,,,
+13183,1,1,3,18,3,Grass_prefab,,,,
+13191,1,1,3,19,1,hedge 1m prefab,,,,
+13192,1,1,3,19,2,hedge prefab,,,,
+13193,1,1,3,19,3,hedge_curve prefab,,,,
+13201,1,1,3,20,1,Hotdog prefab,,,,
+13211,1,1,3,21,1,Hydrant prefab,,,,???? ???? ??????
+13221,1,1,3,22,1,Ketchup prefab,,,,
+13231,1,1,3,23,1,Mail_box prefab,,,,
+13222,1,1,3,22,2,mayonnaise prefab,,,,
+13241,1,1,3,24,1,parking meter prefab,,,,
+13251,1,1,3,25,1,Parking_barrier prefab,,,,
+13261,1,1,3,26,1,phone booth prefab,,,,
+13271,1,1,3,27,1,plant 1 prefab,,,,
+13281,1,1,3,28,1,platt pole prefab,,,,
+13282,1,1,3,28,2,platt sign 1 prefab,,,,
+13283,1,1,3,28,3,platt sign 2 prefab,,,,
+13284,1,1,3,28,4,platt sign 3 prefab,,,,
+13285,1,1,3,28,5,platt sign 4 prefab,,,,
+13286,1,1,3,28,6,platt sign 5 prefab,,,,
+13291,1,1,3,29,1,Pot_tree prefab,,,,
+13301,1,1,3,30,1,Power_poles prefab,,,,?????? ???????
+13311,1,1,3,31,1,shopping cart prefab,,,,
+13321,1,1,3,32,1,Stone 1 Prefab,,,,
+13322,1,1,3,32,2,Stone 2 Prefab,,,,
+13323,1,1,3,32,3,Stone 3 Prefab,,,,
+13324,1,1,3,32,4,Stone 4 Prefab,,,,
+13331,1,1,3,33,1,stone pot prefab,,,,
+13332,1,1,3,33,2,StoneStreet prefab,,,,
+13341,1,1,3,34,1,street_lamp 1 prefab,,,,
+13351,1,1,3,35,1,streetprop prefab,,,,
+13361,1,1,3,36,1,StreetSellerStand,street seller,,,
+13371,1,1,3,37,1,televserion antenna prefab,,,,
+13381,1,1,3,38,1,Traffic light 1 Prefab,,,,
+13382,1,1,3,38,2,Traffic light 2 Prefab,,,,
+13383,1,1,3,38,3,Traffic light 3 Prefab,,,,
+13384,1,1,3,38,4,Traffic light 4 Prefab,,,,
+13385,1,1,3,38,5,traffic_obj prefab,,,,
+13386,1,1,3,38,6,Traffic_pot prefab,,,,
+13387,1,1,3,38,7,traffic_warning_stand prefab,,,,
+13391,1,1,3,39,1,trashBag,trash bag,,,??????????
+13392,1,1,3,39,2,trashcan prefab,,,,?????? ????????
+13393,1,1,3,39,3,trashcan prefab 1,,,,
+13401,1,1,3,40,1,Tree prefab,,,,
+13411,1,1,3,41,1,Wall 1 prefab,,,,
+13412,1,1,3,41,2,Wall 2 prefab,,,,
+13413,1,1,3,41,3,Wall 3 prefab,,,,
+13414,1,1,3,41,4,Wall 4 prefab,,,,
+13415,1,1,3,41,5,Wall 5 prefab,,,,
+13416,1,1,3,41,6,Wall 6 prefab,,,,
+13417,1,1,3,41,7,Wall 7 prefab,,,,
+13421,1,1,3,42,1,Water tank prefab,,,,
+13431,1,1,3,43,1,wood pot prefab,,,,
+13441,1,1,3,44,1,wrench prefab,,,,
+14011,1,1,4,1,1,parking sign,,,,
+14021,1,1,4,2,1,road traffic sign,,,,??????
+14031,1,1,4,3,1,slow sign,,,,
+14041,1,1,4,4,1,stop sign,,,,
+14051,1,1,4,5,1,traffic sign 3,,,,????????
+14052,1,1,4,5,2,traffic sign 4,,,,??????
+14053,1,1,4,5,3,traffic sign 5,,,,????????? ???????
+14054,1,1,4,5,4,traffic sign 6,,,,??????
+14061,1,1,4,6,1,traffic sign speed 10,,,,
+14062,1,1,4,6,2,traffic sign speed 25,,,,
+14063,1,1,4,6,3,traffic sign speed 50,,,,
+14064,1,1,4,6,4,traffic sign speed 70,,,,
+14065,1,1,4,6,5,traffic sign speed 100,,,,

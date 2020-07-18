@@ -90,6 +90,8 @@ public class MissionObject
         prefabName = Convert.ToString(tuple["prefab_name"]);
         name = Convert.ToString(tuple["nickname_eng"]);
 
+        Debug.Log(prefabName);
+
         int objectIdx = 0;
         string[] tmpNames = new string[10];
         GameObject[] tmpObjects = new GameObject[10];
@@ -110,7 +112,7 @@ public class MissionObject
         }
         if (objectIdx == 0)
         {
-            Debug.Log(prefabName + " 오브젝트를 찾을 수 없습니다.");
+            Debug.Log("[" + prefabName + "]오브젝트를 찾을 수 없습니다.");
         }
     }
 

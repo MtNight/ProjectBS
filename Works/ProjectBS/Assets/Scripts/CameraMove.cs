@@ -9,6 +9,7 @@ public class CameraMove : MonoBehaviour {
 
     private GameObject sightHeight;
     private GameObject mainCamera;
+    private GameObject phone;
     private Camera cam;
 
     void Start()
@@ -20,26 +21,30 @@ public class CameraMove : MonoBehaviour {
 
         sightHeight = transform.GetChild(0).gameObject;
         mainCamera = sightHeight.transform.GetChild(0).gameObject;
+        phone = sightHeight.transform.GetChild(1).gameObject;
         cam = mainCamera.GetComponent<Camera>();
     }
     
     void Update()
     {
-        if (Input.GetMouseButton(1))    //right button
+        if (phone.GetComponent<PhoneGallary>().isGallary == false)
         {
-            cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, 32, Time.deltaTime * 5);
+            if (Input.GetMouseButton(1))    //right button
+            {
+                cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, 32, Time.deltaTime * 5);
 
-            Vector3 tmpPos = mainCamera.transform.localPosition;
-            tmpPos.y = Mathf.Lerp(tmpPos.y, -0.3f, Time.deltaTime * 5);
-            mainCamera.transform.localPosition = tmpPos;
-        }
-        else
-        {
-            cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, 64, Time.deltaTime * 5);
+                Vector3 tmpPos = mainCamera.transform.localPosition;
+                tmpPos.y = Mathf.Lerp(tmpPos.y, -0.3f, Time.deltaTime * 5);
+                mainCamera.transform.localPosition = tmpPos;
+            }
+            else
+            {
+                cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, 64, Time.deltaTime * 5);
 
-            Vector3 tmpPos = mainCamera.transform.localPosition;
-            tmpPos.y = Mathf.Lerp(tmpPos.y, 0, Time.deltaTime * 5);
-            mainCamera.transform.localPosition = tmpPos;
+                Vector3 tmpPos = mainCamera.transform.localPosition;
+                tmpPos.y = Mathf.Lerp(tmpPos.y, 0, Time.deltaTime * 5);
+                mainCamera.transform.localPosition = tmpPos;
+            }
         }
 
 
