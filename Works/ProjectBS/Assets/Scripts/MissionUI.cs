@@ -87,14 +87,14 @@ public class MissionUI : MonoBehaviour {
             isClearMission[objNum] = stat;
         }
         else { return; }
-        if (stat)
+        if (stat == true)
         {
             uiTexts[objNum].GetComponent<Text>().color = Color.red;
             missionCnt++;
         }
         else
         {
-            uiTexts[objNum].GetComponent<Text>().color = Color.red;
+            uiTexts[objNum].GetComponent<Text>().color = Color.black;
             missionCnt--;
         }
         uiTexts[objNum].transform.GetChild(0).gameObject.GetComponent<Toggle>().isOn = stat;

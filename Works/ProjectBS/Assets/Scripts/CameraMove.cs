@@ -27,26 +27,24 @@ public class CameraMove : MonoBehaviour {
     
     void Update()
     {
-        if (phone.GetComponent<PhoneGallary>().isGallary == false)
+
+        int changeSpeed = 5;
+        if (phone.GetComponent<PhoneGallary>().isLandscapeMode == true)    //right button
         {
-            if (Input.GetMouseButton(1))    //right button
-            {
-                cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, 32, Time.deltaTime * 5);
+            cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, 32, Time.deltaTime * changeSpeed);
 
-                Vector3 tmpPos = mainCamera.transform.localPosition;
-                tmpPos.y = Mathf.Lerp(tmpPos.y, -0.3f, Time.deltaTime * 5);
-                mainCamera.transform.localPosition = tmpPos;
-            }
-            else
-            {
-                cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, 64, Time.deltaTime * 5);
-
-                Vector3 tmpPos = mainCamera.transform.localPosition;
-                tmpPos.y = Mathf.Lerp(tmpPos.y, 0, Time.deltaTime * 5);
-                mainCamera.transform.localPosition = tmpPos;
-            }
+            Vector3 tmpPos = mainCamera.transform.localPosition;
+            tmpPos.y = Mathf.Lerp(tmpPos.y, -0.3f, Time.deltaTime * changeSpeed);
+            mainCamera.transform.localPosition = tmpPos;
         }
+        else
+        {
+            cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, 64, Time.deltaTime * changeSpeed);
 
+            Vector3 tmpPos = mainCamera.transform.localPosition;
+            tmpPos.y = Mathf.Lerp(tmpPos.y, 0, Time.deltaTime * changeSpeed);
+            mainCamera.transform.localPosition = tmpPos;
+        }
 
         float yRot = Input.GetAxis("Mouse X") * xSensitivity * Time.deltaTime;
         float xRot = Input.GetAxis("Mouse Y") * ySensitivity * Time.deltaTime;

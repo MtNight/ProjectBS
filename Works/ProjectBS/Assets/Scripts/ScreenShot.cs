@@ -60,13 +60,15 @@ public class ScreenShot : MonoBehaviour
         //File.WriteAllBytes(path + name + ".jpg", bytes);
         cam.GetComponent<Camera>().targetTexture = rt;
         Debug.Log("shot!");
-        phone.GetComponent<PhoneGallary>().ImageSave(name, screenShot);
 
         Ray Ray;
         RaycastHit hit;
         int w = cam.GetComponent<Camera>().pixelWidth;
         int h = cam.GetComponent<Camera>().pixelHeight;
         int cnt = 0;
+
+        bool isClearObjective = false;
+        int numberOfObjective = -1;
         for (int y = 0; y < 10; y++)
         {
             for (int x = 0; x < 10; x++)
@@ -87,15 +89,23 @@ public class ScreenShot : MonoBehaviour
                             if (isMissionObject1 || isMissionObject2)
                             {
                                 MissionPanel.GetComponent<MissionUI>().ClearObjective(i, true);
+                                isClearObjective = true;
+                                numberOfObjective = i;
                                 break;
                             }
                         }
                     }
-                    //return;
+                    if (isClearObjective == true)
+                    {
+                        y = 10;
+                        break;
+                    }
                 }
                 Debug.DrawRay(Ray.origin, Ray.direction * 64, Color.red, 0.3f);
             }
         }
+        
+        phone.GetComponent<PhoneGallary>().ImageSave(screenShot, name, numberOfObjective);
         Debug.Log(cnt);
     }
 }
