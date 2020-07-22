@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33351397853001688}
   - component: {fileID: 23950133359724760}
   - component: {fileID: 64437297842944316}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: traffic_obj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,7 +103,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4540667670795376}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: traffic_obj prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ Transform:
   m_GameObject: {fileID: 1902530880653180}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4472478552006240}
   m_Father: {fileID: 0}

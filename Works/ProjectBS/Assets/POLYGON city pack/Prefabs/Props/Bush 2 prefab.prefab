@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4091648507630204}
   - component: {fileID: 33679507387438554}
   - component: {fileID: 23378513968926494}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Bush 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4661298526496350}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Bush 2 prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ Transform:
   m_GameObject: {fileID: 1876599732148902}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4091648507630204}
   m_Father: {fileID: 0}

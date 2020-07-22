@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33037813876768138}
   - component: {fileID: 23611118630367938}
   - component: {fileID: 64110119354787584}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: trashBag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,7 +103,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4631891537778504}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: trashBag prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ Transform:
   m_GameObject: {fileID: 1394111307883294}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4323016640052056}
   m_Father: {fileID: 0}

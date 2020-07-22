@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4949280722789196}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Wall 2 prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 1042725821791090}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4282176047686484}
   m_Father: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 33256605494067374}
   - component: {fileID: 23507203583422458}
   - component: {fileID: 64823509361529880}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Wall 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

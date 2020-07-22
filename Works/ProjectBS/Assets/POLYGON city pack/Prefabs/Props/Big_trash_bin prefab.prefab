@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33709613819677734}
   - component: {fileID: 23538034704291556}
   - component: {fileID: 64379194597998066}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: door 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,7 +103,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4884130492571914}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Big_trash_bin prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ Transform:
   m_GameObject: {fileID: 1520711273483040}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4165393474281928}
   m_Father: {fileID: 0}
@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 33270614951584920}
   - component: {fileID: 23274287443516918}
   - component: {fileID: 64518191158647524}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: door 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -231,7 +231,7 @@ GameObject:
   - component: {fileID: 33267741263476542}
   - component: {fileID: 23550363612717352}
   - component: {fileID: 64148542245802572}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Big_trash_bin
   m_TagString: Untagged
   m_Icon: {fileID: 0}

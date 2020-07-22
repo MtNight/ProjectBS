@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4567606340523442}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: phone booth prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 1783081465637762}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4983468047831508}
   m_Father: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 33322317489619528}
   - component: {fileID: 23494407516472106}
   - component: {fileID: 65300760832128482}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: phone booth
   m_TagString: Untagged
   m_Icon: {fileID: 0}

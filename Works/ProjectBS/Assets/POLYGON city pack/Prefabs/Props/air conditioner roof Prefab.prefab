@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4095668503671408}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: air conditioner roof Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 1556306513280786}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4566161763458420}
   m_Father: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 33902675167032354}
   - component: {fileID: 23517253583696752}
   - component: {fileID: 65474215613389204}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: air conditioner roof
   m_TagString: Untagged
   m_Icon: {fileID: 0}

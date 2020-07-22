@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33587886556086272}
   - component: {fileID: 23460948065161454}
   - component: {fileID: 65404575972090334}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Bin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4096586194150716}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Bin prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +118,7 @@ Transform:
   m_GameObject: {fileID: 1646961398783488}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4305862832473896}
   m_Father: {fileID: 0}

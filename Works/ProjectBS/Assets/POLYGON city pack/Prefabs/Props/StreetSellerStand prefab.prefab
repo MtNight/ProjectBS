@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4885708448105666}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_coke 1 prefab (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 33105287822747728}
   - component: {fileID: 23119004412971818}
   - component: {fileID: 65281835000910832}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: burger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 33071338480128330}
   - component: {fileID: 23271479202007096}
   - component: {fileID: 65079453202752528}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_drink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -229,7 +229,7 @@ GameObject:
   - component: {fileID: 33606914022621298}
   - component: {fileID: 23274612909038606}
   - component: {fileID: 65139505910217234}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: burger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -319,7 +319,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4197597325137054}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_coke 1 prefab (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -350,7 +350,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4754176253745238}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: burger prefab (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -381,7 +381,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4232810062446958}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: burger prefab (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -415,7 +415,7 @@ GameObject:
   - component: {fileID: 33019869529387574}
   - component: {fileID: 23140007217619532}
   - component: {fileID: 65200863499370010}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Hotdog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -508,7 +508,7 @@ GameObject:
   - component: {fileID: 33146739237919176}
   - component: {fileID: 23967037952340544}
   - component: {fileID: 65424528747954188}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GlassCoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -598,7 +598,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4490536925724976}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GlassCoke prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -629,7 +629,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4112968723120718}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: burger prefab (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -660,7 +660,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4857008648702526}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: StreetSellerStand prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -676,7 +676,7 @@ Transform:
   m_GameObject: {fileID: 1173778661502458}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4373751272602718}
   m_Father: {fileID: 0}
@@ -694,7 +694,7 @@ GameObject:
   - component: {fileID: 33283858260383838}
   - component: {fileID: 23025300143949352}
   - component: {fileID: 65806942414251094}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GlassCoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -784,7 +784,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4804382610951192}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_coke 1 prefab (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -818,7 +818,7 @@ GameObject:
   - component: {fileID: 33644401147966746}
   - component: {fileID: 23835753376514324}
   - component: {fileID: 65497960237040988}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GlassCoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -908,7 +908,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4995338052769130}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GlassCoke prefab (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -939,7 +939,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4585136781212034}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GlassCoke prefab (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -970,7 +970,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4727264854284022}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_coke 2 prefab (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1001,7 +1001,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4481828161171372}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_coke 1 prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1035,7 +1035,7 @@ GameObject:
   - component: {fileID: 33624483618515902}
   - component: {fileID: 23779729320324320}
   - component: {fileID: 65342458309445838}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GlassCoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1125,7 +1125,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4929050353717448}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: burger prefab (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1156,7 +1156,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4017463807288686}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GlassCoke prefab (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1190,7 +1190,7 @@ GameObject:
   - component: {fileID: 33031275134924678}
   - component: {fileID: 23860174446551272}
   - component: {fileID: 65724555922283086}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_drink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1280,7 +1280,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4134381257719764}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: burger prefab (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1311,7 +1311,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4416440596341744}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_coke 2 prefab (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1342,7 +1342,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4296333099973398}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Ketchup prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1376,7 +1376,7 @@ GameObject:
   - component: {fileID: 33277837839021872}
   - component: {fileID: 23468349891678190}
   - component: {fileID: 65893905520944090}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_drink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1466,7 +1466,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4505096853754420}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GlassCoke prefab (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1500,7 +1500,7 @@ GameObject:
   - component: {fileID: 33240001591140778}
   - component: {fileID: 23327532334389180}
   - component: {fileID: 65655236227067302}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GlassCoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1593,7 +1593,7 @@ GameObject:
   - component: {fileID: 33125493667000544}
   - component: {fileID: 23020463100327342}
   - component: {fileID: 64507268300006818}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: StreetSellerStand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1728,7 +1728,7 @@ GameObject:
   - component: {fileID: 33326451638813272}
   - component: {fileID: 23324361006254228}
   - component: {fileID: 65014314612055366}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_drink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1821,7 +1821,7 @@ GameObject:
   - component: {fileID: 33514353959295756}
   - component: {fileID: 23939787119281030}
   - component: {fileID: 65274567500851624}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_drink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1911,7 +1911,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4301503204525856}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Hotdog prefab (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1945,7 +1945,7 @@ GameObject:
   - component: {fileID: 33499461790015214}
   - component: {fileID: 23475384731905636}
   - component: {fileID: 65241229919137314}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_drink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2038,7 +2038,7 @@ GameObject:
   - component: {fileID: 33429709561254928}
   - component: {fileID: 23706895342220328}
   - component: {fileID: 65475317772397296}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Hotdog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2131,7 +2131,7 @@ GameObject:
   - component: {fileID: 33061317508712716}
   - component: {fileID: 23616677795792026}
   - component: {fileID: 65950442505081422}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: burger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2221,7 +2221,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4999068543307650}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_coke 1 prefab (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2252,7 +2252,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4498803632490070}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_coke 2 prefab (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2283,7 +2283,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4080641126655078}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GlassCoke prefab (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2317,7 +2317,7 @@ GameObject:
   - component: {fileID: 33916258592788554}
   - component: {fileID: 23251320408324090}
   - component: {fileID: 65459149057507438}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: burger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2410,7 +2410,7 @@ GameObject:
   - component: {fileID: 33806191874466338}
   - component: {fileID: 23451912495280434}
   - component: {fileID: 65723651341145272}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_drink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2500,7 +2500,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4317547031689592}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GlassCoke prefab (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2534,7 +2534,7 @@ GameObject:
   - component: {fileID: 33322463846386134}
   - component: {fileID: 23545459103610056}
   - component: {fileID: 65769379614340630}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_drink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2627,7 +2627,7 @@ GameObject:
   - component: {fileID: 33457207888695478}
   - component: {fileID: 23623188761424552}
   - component: {fileID: 65517075518544386}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_drink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2720,7 +2720,7 @@ GameObject:
   - component: {fileID: 33001495113037962}
   - component: {fileID: 23909508948230526}
   - component: {fileID: 65201693413160062}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: burger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2813,7 +2813,7 @@ GameObject:
   - component: {fileID: 33947495307269258}
   - component: {fileID: 23133272942021566}
   - component: {fileID: 65421256502525338}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: burger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2906,7 +2906,7 @@ GameObject:
   - component: {fileID: 33698401463580338}
   - component: {fileID: 23006815189381116}
   - component: {fileID: 65095008467101350}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: burger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2996,7 +2996,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4235470525899920}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: burger prefab (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3030,7 +3030,7 @@ GameObject:
   - component: {fileID: 33061078621995838}
   - component: {fileID: 23888123711597434}
   - component: {fileID: 65759636933451870}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: burger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3120,7 +3120,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4044343571505608}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Hotdog prefab (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3151,7 +3151,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4465257079722738}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: burger prefab (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3182,7 +3182,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4647805856765904}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: burger prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3213,7 +3213,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4385536219635602}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_coke 2 prefab (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3244,7 +3244,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4141271987822484}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_coke 2 prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3278,7 +3278,7 @@ GameObject:
   - component: {fileID: 33901601177875920}
   - component: {fileID: 23476563015496914}
   - component: {fileID: 65268257513229278}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: mayonnaiseKetchup (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3371,7 +3371,7 @@ GameObject:
   - component: {fileID: 33256652592836612}
   - component: {fileID: 23415458463393774}
   - component: {fileID: 65715131972971138}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GlassCoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3464,7 +3464,7 @@ GameObject:
   - component: {fileID: 33446070026500840}
   - component: {fileID: 23758823054108266}
   - component: {fileID: 65016265948673430}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_drink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3554,7 +3554,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4275429191181158}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Hotdog prefab (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3585,7 +3585,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4759590521585310}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_coke 1 prefab (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3616,7 +3616,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4755034354290602}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_coke 1 prefab (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3647,7 +3647,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4098678387597278}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_coke 2 prefab (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3681,7 +3681,7 @@ GameObject:
   - component: {fileID: 33335054468638206}
   - component: {fileID: 23263764732259190}
   - component: {fileID: 65337088276518552}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_drink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3771,7 +3771,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4144142685448062}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: burger prefab (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3805,7 +3805,7 @@ GameObject:
   - component: {fileID: 33335155447532768}
   - component: {fileID: 23657462743386056}
   - component: {fileID: 65641015580627138}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GlassCoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3898,7 +3898,7 @@ GameObject:
   - component: {fileID: 33130640236621060}
   - component: {fileID: 23078871728639104}
   - component: {fileID: 65948486263873188}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GlassCoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3988,7 +3988,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4605982803258464}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: burger prefab (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4022,7 +4022,7 @@ GameObject:
   - component: {fileID: 33940014080589768}
   - component: {fileID: 23683880359151158}
   - component: {fileID: 65361166431916328}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: burger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4115,7 +4115,7 @@ GameObject:
   - component: {fileID: 33836753559684564}
   - component: {fileID: 23734557892991420}
   - component: {fileID: 65828332569077314}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: burger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4205,7 +4205,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4601532010511660}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_coke 1 prefab (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4239,7 +4239,7 @@ GameObject:
   - component: {fileID: 33152629769764744}
   - component: {fileID: 23579457040679390}
   - component: {fileID: 65320822742085118}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: burger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4329,7 +4329,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4170193593165264}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: burger prefab (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4363,7 +4363,7 @@ GameObject:
   - component: {fileID: 33774868968881930}
   - component: {fileID: 23997454604818850}
   - component: {fileID: 65500059276384052}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Hotdog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4456,7 +4456,7 @@ GameObject:
   - component: {fileID: 33255432454053226}
   - component: {fileID: 23386474468680008}
   - component: {fileID: 65537901801017352}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_drink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4546,7 +4546,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4484640787792040}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GlassCoke prefab (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4580,7 +4580,7 @@ GameObject:
   - component: {fileID: 33833803984642630}
   - component: {fileID: 23374033904285170}
   - component: {fileID: 65722903583744084}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_drink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4670,7 +4670,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4307384449888726}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Hotdog prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4704,7 +4704,7 @@ GameObject:
   - component: {fileID: 33464097473842842}
   - component: {fileID: 23902958959608102}
   - component: {fileID: 65438177776338934}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Hotdog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4797,7 +4797,7 @@ GameObject:
   - component: {fileID: 33924440802955912}
   - component: {fileID: 23304833040025580}
   - component: {fileID: 65127367723592292}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GlassCoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4890,7 +4890,7 @@ GameObject:
   - component: {fileID: 33278567062302390}
   - component: {fileID: 23123566126066086}
   - component: {fileID: 65728931552632922}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Can_drink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4980,7 +4980,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4754995157022998}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: GlassCoke prefab (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5014,7 +5014,7 @@ GameObject:
   - component: {fileID: 33139275918851798}
   - component: {fileID: 23498290808918946}
   - component: {fileID: 65649098753581150}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: mayonnaiseKetchup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5104,7 +5104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4862995489313240}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: mayonnaise prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}

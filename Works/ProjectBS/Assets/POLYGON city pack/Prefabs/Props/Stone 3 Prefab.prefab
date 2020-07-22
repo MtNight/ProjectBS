@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33763529961662090}
   - component: {fileID: 23105119379756468}
   - component: {fileID: 64375586858561320}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: stone 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,7 +103,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4231348148320386}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Stone 3 Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ Transform:
   m_GameObject: {fileID: 1713973710326492}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4561964727787582}
   m_Father: {fileID: 0}

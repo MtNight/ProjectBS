@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33760337636128220}
   - component: {fileID: 23299119118139636}
   - component: {fileID: 64133505792484584}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Hospital_sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4229638173825476}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Hospital_sign prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,7 +120,7 @@ Transform:
   m_GameObject: {fileID: 1596534882251918}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4307824278302232}
   m_Father: {fileID: 0}

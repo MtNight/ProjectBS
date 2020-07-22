@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4789392437579438}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Traffic light 4 Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 1751516578131854}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4530188342487614}
   m_Father: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 33402619854212668}
   - component: {fileID: 23289473655067166}
   - component: {fileID: 64355154293267742}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Traffic_light_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}

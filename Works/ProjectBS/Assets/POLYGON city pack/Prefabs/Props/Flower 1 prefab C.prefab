@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4195279755726796}
   - component: {fileID: 33519363368710034}
   - component: {fileID: 23596795949197950}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Flower 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4806305339081088}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Flower 1 prefab C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ Transform:
   m_GameObject: {fileID: 1812167064584136}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4195279755726796}
   m_Father: {fileID: 0}
