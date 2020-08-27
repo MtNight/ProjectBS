@@ -62,6 +62,10 @@
      <Compile Include="Assets\Scripts\PhoneGallary.cs" />
      <Compile Include="Assets\Scripts\PlayerMove.cs" />
      <Compile Include="Assets\Scripts\ScreenShot.cs" />
+     <None Include="Assets\Asset_SF City\Shaders\Polygon_Triplanar.shader" />
+     <None Include="Assets\Asset_Simple People\Changelog.txt" />
+     <None Include="Assets\Asset_SF City\Shaders\Polygon_UVScroll.shader" />
+     <None Include="Assets\Asset_Polygon City\Change_Log.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/hjk/projectBS/ProjectBS/Works/ProjectBS/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
