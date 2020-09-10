@@ -1,36 +1,6 @@
 fileFormatVersion: 2
 guid: 5b1bf9e75e6e0cf428ec7d8606d61712
 ModelImporter:
-<<<<<<< HEAD
-  serializedVersion: 16
-  fileIDToRecycleName:
-    100000: Road_LaneTransition_Right
-    100002: //RootNode
-    400000: Road_LaneTransition_Right
-    400002: //RootNode
-    2300000: Road_LaneTransition_Right
-    2300002: //RootNode
-    3300000: Road_LaneTransition_Right
-    3300002: //RootNode
-    4300000: Road_LaneTransition_Right
-    4300002: road_LaneTransition_Right
-    9500000: //RootNode
-  materials:
-    importMaterials: 0
-    materialName: 0
-    materialSearch: 1
-  animations:
-    legacyGenerateAnimations: 4
-    bakeSimulation: 0
-    optimizeGameObjects: 0
-    motionNodeName: 
-    animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
-    animationWrapMode: 0
-    extraExposedTransformPaths: []
-=======
   serializedVersion: 19300
   internalIDToNameTable:
   - first:
@@ -93,7 +63,6 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
->>>>>>> work2
     clipAnimations: []
     isReadable: 0
   meshes:
@@ -101,14 +70,6 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-<<<<<<< HEAD
-    importBlendShapes: 1
-    swapUVChannels: 0
-    generateSecondaryUV: 0
-    useFileUnits: 1
-    optimizeMeshForGPU: 1
-    weldVertices: 1
-=======
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 0
@@ -126,35 +87,10 @@ ModelImporter:
     minBoneWeight: 0.001
     meshOptimizationFlags: -1
     indexFormat: 1
->>>>>>> work2
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-<<<<<<< HEAD
-  tangentSpace:
-    normalSmoothAngle: 60
-    splitTangentsAcrossUV: 0
-    normalImportMode: 1
-    tangentImportMode: 1
-  importAnimation: 0
-  copyAvatar: 0
-  humanDescription:
-    human: []
-    skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
-    feetSpacing: 0
-    rootMotionBoneName: 
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
-  additionalBone: 1
-  userData: 
-=======
     useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
@@ -191,4 +127,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
->>>>>>> work2

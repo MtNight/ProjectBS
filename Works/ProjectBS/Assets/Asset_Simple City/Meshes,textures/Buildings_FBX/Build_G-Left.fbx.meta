@@ -1,16 +1,6 @@
 fileFormatVersion: 2
 guid: 304125dc564333d4598543ef0fa739ef
 ModelImporter:
-<<<<<<< HEAD
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Building_G
-    2186277476908879412: ImportLogs
-=======
   serializedVersion: 19300
   internalIDToNameTable:
   - first:
@@ -31,7 +21,6 @@ ModelImporter:
   - first:
       41386430: 2186277476908879412
     second: ImportLogs
->>>>>>> work2
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -94,11 +83,7 @@ ModelImporter:
       name: windows2
     second: {fileID: 2100000, guid: 36dac64032b6efe4fb1632bc45de8285, type: 2}
   materials:
-<<<<<<< HEAD
-    importMaterials: 1
-=======
     materialImportMode: 1
->>>>>>> work2
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -131,23 +116,12 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-<<<<<<< HEAD
-=======
     sortHierarchyByName: 1
->>>>>>> work2
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-<<<<<<< HEAD
-    generateSecondaryUV: 0
-    useFileUnits: 1
-    optimizeMeshForGPU: 1
-    keepQuads: 0
-    weldVertices: 1
-    preserveHierarchy: 0
-=======
     generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
@@ -157,18 +131,12 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     meshOptimizationFlags: -1
->>>>>>> work2
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-<<<<<<< HEAD
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
-=======
->>>>>>> work2
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -177,17 +145,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-<<<<<<< HEAD
-  importAnimation: 1
-  copyAvatar: 0
-  humanDescription:
-    serializedVersion: 2
-=======
   referencedClips: []
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
->>>>>>> work2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -197,24 +158,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-<<<<<<< HEAD
-=======
     globalScale: 1
->>>>>>> work2
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-<<<<<<< HEAD
-  animationType: 0
-  humanoidOversampling: 1
-=======
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
   avatarSetup: 0
->>>>>>> work2
   additionalBone: 0
   userData: 
   assetBundleName: 

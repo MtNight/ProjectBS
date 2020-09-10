@@ -1,17 +1,5 @@
 fileFormatVersion: 2
 guid: debcce6af33ad3e40835b6538c57dbe4
-<<<<<<< HEAD
-timeCreated: 1517455852
-licenseType: Store
-ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Stone_grass_02
-=======
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable:
@@ -30,30 +18,19 @@ ModelImporter:
   - first:
       43: 4300000
     second: Stone_grass_02
->>>>>>> work2
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Grass
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 9904cd0f6245e884999431c0bdf22fef, type: 2}
-=======
     second: {fileID: 2100000, guid: 6bced7c05d64f3d498068304df072429, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: sideway
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: f98c10fdd3bab6a42bfbc07821d1434a, type: 2}
-  materials:
-    importMaterials: 1
-=======
     second: {fileID: 2100000, guid: d8801b161907a0c419f1fee6db107147, type: 2}
   materials:
     materialImportMode: 1
->>>>>>> work2
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -70,10 +47,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-<<<<<<< HEAD
-=======
     importConstraints: 0
->>>>>>> work2
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -88,23 +62,13 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-<<<<<<< HEAD
-=======
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
->>>>>>> work2
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-<<<<<<< HEAD
-    generateSecondaryUV: 0
-    useFileUnits: 1
-    optimizeMeshForGPU: 1
-    keepQuads: 0
-    weldVertices: 1
-=======
     generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
@@ -115,7 +79,6 @@ ModelImporter:
     minBoneWeight: 0.001
     meshOptimizationFlags: -1
     indexFormat: 0
->>>>>>> work2
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -126,12 +89,6 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-<<<<<<< HEAD
-  importAnimation: 1
-  copyAvatar: 0
-  humanDescription:
-    serializedVersion: 2
-=======
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
@@ -139,7 +96,6 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
->>>>>>> work2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -149,26 +105,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-<<<<<<< HEAD
-    rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
-=======
     globalScale: 1
     rootMotionBoneName: 
->>>>>>> work2
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-<<<<<<< HEAD
-  animationType: 0
-  humanoidOversampling: 1
-=======
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
   avatarSetup: 0
->>>>>>> work2
   additionalBone: 0
   userData: 
   assetBundleName: 

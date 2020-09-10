@@ -1,17 +1,5 @@
 fileFormatVersion: 2
 guid: 766782d248257f440b2b859de95dad6c
-<<<<<<< HEAD
-timeCreated: 1517349101
-licenseType: Store
-ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Traffic_light_1
-=======
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable:
@@ -30,7 +18,6 @@ ModelImporter:
   - first:
       43: 4300000
     second: Traffic_light_1
->>>>>>> work2
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -40,34 +27,26 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-<<<<<<< HEAD
-=======
       name: light  2 c.001
     second: {fileID: 2100000, guid: 42c779d4c87b44d4b99c2279426a4177, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
->>>>>>> work2
       name: light 1 a
     second: {fileID: 2100000, guid: 09864b4c25654f54e9b1d68fc0ebe6f6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-<<<<<<< HEAD
-=======
       name: light 1 a.001
     second: {fileID: 2100000, guid: 2cf284bdae2eb9043886eb2aa7209709, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
->>>>>>> work2
       name: light 1 b
     second: {fileID: 2100000, guid: 49cc6dc855ae67947b12dcb5001582ed, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-<<<<<<< HEAD
-=======
       name: light 1 b.001
     second: {fileID: 2100000, guid: 43d24319d61229d41b9d637b55d50462, type: 2}
   - first:
@@ -78,7 +57,6 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
->>>>>>> work2
       name: light 2 a_
     second: {fileID: 2100000, guid: 169c7868e5d18dc469822589f4bab50e, type: 2}
   - first:
@@ -89,25 +67,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-<<<<<<< HEAD
-=======
       name: light 2 b.001
     second: {fileID: 2100000, guid: 3f158b2f9ca747548b6c615828119b52, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
->>>>>>> work2
       name: light 3 a
     second: {fileID: 2100000, guid: d07334c796d47b34f86a5ab78101287d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-<<<<<<< HEAD
-      name: traffic light main
-    second: {fileID: 2100000, guid: 23409218991809648acfeff4ee3ee1cb, type: 2}
-  materials:
-    importMaterials: 1
-=======
       name: light 3 a.001
     second: {fileID: 2100000, guid: be6c14a7ad3166545b8b14b342d0e209, type: 2}
   - first:
@@ -122,7 +91,6 @@ ModelImporter:
     second: {fileID: 2100000, guid: 2104027ea816d0f4fa469af3a5d85253, type: 2}
   materials:
     materialImportMode: 1
->>>>>>> work2
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -139,10 +107,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-<<<<<<< HEAD
-=======
     importConstraints: 0
->>>>>>> work2
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -157,23 +122,13 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-<<<<<<< HEAD
-=======
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
->>>>>>> work2
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-<<<<<<< HEAD
-    generateSecondaryUV: 0
-    useFileUnits: 1
-    optimizeMeshForGPU: 1
-    keepQuads: 0
-    weldVertices: 1
-=======
     generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
@@ -184,7 +139,6 @@ ModelImporter:
     minBoneWeight: 0.001
     meshOptimizationFlags: -1
     indexFormat: 0
->>>>>>> work2
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -195,12 +149,6 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-<<<<<<< HEAD
-  importAnimation: 1
-  copyAvatar: 0
-  humanDescription:
-    serializedVersion: 2
-=======
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
@@ -208,7 +156,6 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
->>>>>>> work2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -218,26 +165,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-<<<<<<< HEAD
-    rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
-=======
     globalScale: 1
     rootMotionBoneName: 
->>>>>>> work2
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-<<<<<<< HEAD
-  animationType: 0
-  humanoidOversampling: 1
-=======
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
   avatarSetup: 0
->>>>>>> work2
   additionalBone: 0
   userData: 
   assetBundleName: 

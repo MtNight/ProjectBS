@@ -1,22 +1,5 @@
 fileFormatVersion: 2
 guid: 9f70c3b25552f8c4cbfc2dc5b60b2c0e
-<<<<<<< HEAD
-timeCreated: 1517349133
-licenseType: Store
-ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Fire_escape_leader
-    400000: //RootNode
-    400002: Fire_escape_leader
-    2300000: //RootNode
-    2300002: Fire_escape_leader
-    3300000: //RootNode
-    3300002: Fire_escape_leader
-    4300000: Building_I
-    4300002: Fire_escape_leader
-=======
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable:
@@ -50,192 +33,109 @@ ModelImporter:
   - first:
       43: 4300002
     second: Fire_escape_leader
->>>>>>> work2
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Door_01
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 7fcf9025cfd765242ac08d6408462679, type: 2}
-=======
     second: {fileID: 2100000, guid: f9592892094acb24da2b90189e525604, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Door_02
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: a24e13f41637b404fad9b521b6ff6bc2, type: 2}
-=======
     second: {fileID: 2100000, guid: f943d4f9c9a334944a87e10f9d5425ac, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Door_03
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 401e67d6b5f7c4143887f62da5b22fb8, type: 2}
-=======
     second: {fileID: 2100000, guid: 185f306e7636a2a488d7bcbde66328fc, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Door_04
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 606b40e211d1848458fb6f70986aa4fe, type: 2}
-=======
     second: {fileID: 2100000, guid: b37058c9ff8a5c2469e5d1608857de59, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Door_05
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 3b8c274e23f9f9b45883623ba71e36bd, type: 2}
-=======
     second: {fileID: 2100000, guid: dcf6e66e177a2b34cb29a7978d143a19, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Facade_01
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 54b036310d7d58441a52a350cba7bc01, type: 2}
-=======
     second: {fileID: 2100000, guid: 164743e4b18444742a6a014e23633041, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Facade_02
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 138eb3215110b2543866180781a390e7, type: 2}
-=======
     second: {fileID: 2100000, guid: 30651912955f9e54c8abd2f5fb4a30bc, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Fire_escape_03
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 2d406ea449e44ad4dbcbaddec52d3103, type: 2}
-=======
     second: {fileID: 2100000, guid: c16f8444ef371e249a59df87dfb7858f, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Fire_escape_04
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 2253b687d5605a74aaacd8c1b49065df, type: 2}
-=======
     second: {fileID: 2100000, guid: f6cf0258f922d6e4db4d10ec0958564f, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Gold
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: fd32d554237ab7b42969c635d2c98dff, type: 2}
-=======
     second: {fileID: 2100000, guid: ec9fd98ef7eaa3d44b4a842e37981e20, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Grid
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 40fc0bd172f16f044a66ecd83d9cb292, type: 2}
-=======
     second: {fileID: 2100000, guid: 8164fb62bfb171c419be623a9738efea, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Roof.001
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 5f545bca6a3478045b9a33ac041aadb0, type: 2}
-=======
     second: {fileID: 2100000, guid: 1a0e89e9df33f3f42b1b9b2b1df5f505, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Surface
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 15e705b4eb576644bb895b16ab825d70, type: 2}
-=======
     second: {fileID: 2100000, guid: 2df5ecdd8d15fbe42aa03609cc0ba528, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Window_board
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: ec1bfb46a3b388e40a8790c655f09c87, type: 2}
-=======
     second: {fileID: 2100000, guid: 29193d0f48f5ff449bdf28c5a539a20c, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Window_frames.001
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: d2bf268a9a65e2742952be932efa780a, type: 2}
-=======
     second: {fileID: 2100000, guid: a2ac3c63c3645b947bfaa3bc81eff741, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Windows_01
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: e3adce03b13b12b41b0fd3ef39d8ba57, type: 2}
-=======
     second: {fileID: 2100000, guid: ef8937ecaca172e49a9a05f0f6ef829f, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Windows_02
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 1d691df3204532e489a099fa48e9d9ae, type: 2}
-=======
     second: {fileID: 2100000, guid: 3f639a6d7466b3149a416ae2e4a51441, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: congregate
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 926f51a7e1b3084468174325c6d89cdf, type: 2}
-=======
     second: {fileID: 2100000, guid: df6c7dd99dd36d14b8bbd9b6e0f3f477, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: fire_escape_01
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 0ea5251c4a513434183a7f6c3f910611, type: 2}
-=======
     second: {fileID: 2100000, guid: 8035d0e288f5f9946944e167e702cdd2, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: fire_escape_02
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: ddfd6fac98d3d0441bb634f929dde1ed, type: 2}
-  materials:
-    importMaterials: 1
-=======
     second: {fileID: 2100000, guid: adbca5e9a4edb214c9b2c964e5af7e76, type: 2}
   materials:
     materialImportMode: 1
->>>>>>> work2
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -252,10 +152,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-<<<<<<< HEAD
-=======
     importConstraints: 0
->>>>>>> work2
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -270,23 +167,13 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-<<<<<<< HEAD
-=======
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
->>>>>>> work2
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-<<<<<<< HEAD
-    generateSecondaryUV: 0
-    useFileUnits: 1
-    optimizeMeshForGPU: 1
-    keepQuads: 0
-    weldVertices: 1
-=======
     generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
@@ -297,7 +184,6 @@ ModelImporter:
     minBoneWeight: 0.001
     meshOptimizationFlags: -1
     indexFormat: 0
->>>>>>> work2
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -308,12 +194,6 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-<<<<<<< HEAD
-  importAnimation: 1
-  copyAvatar: 0
-  humanDescription:
-    serializedVersion: 2
-=======
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
@@ -321,7 +201,6 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
->>>>>>> work2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -331,26 +210,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-<<<<<<< HEAD
-    rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
-=======
     globalScale: 1
     rootMotionBoneName: 
->>>>>>> work2
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-<<<<<<< HEAD
-  animationType: 0
-  humanoidOversampling: 1
-=======
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
   avatarSetup: 0
->>>>>>> work2
   additionalBone: 0
   userData: 
   assetBundleName: 

@@ -1,17 +1,5 @@
 fileFormatVersion: 2
 guid: d868f43c7beb58240be5c9d7c39d5d6f
-<<<<<<< HEAD
-timeCreated: 1517456114
-licenseType: Store
-ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Sidewalk_06
-=======
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable:
@@ -30,7 +18,6 @@ ModelImporter:
   - first:
       43: 4300000
     second: Sidewalk_06
->>>>>>> work2
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -40,25 +27,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-<<<<<<< HEAD
-=======
       name: SideWalk.006
     second: {fileID: 2100000, guid: b9967671dc65ce94aa0ae25ec3ccc87c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
->>>>>>> work2
       name: Sideway.005
     second: {fileID: 2100000, guid: de542fbc4be729f4c9057a9776876c37, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-<<<<<<< HEAD
-      name: Street.005
-    second: {fileID: 2100000, guid: 648e624306e061b41bee8536f83dcf00, type: 2}
-  materials:
-    importMaterials: 1
-=======
       name: Sideway.006
     second: {fileID: 2100000, guid: b189a2b6cbbdd284b92ba18fae38a10f, type: 2}
   - first:
@@ -73,7 +51,6 @@ ModelImporter:
     second: {fileID: 2100000, guid: db1e9477ba471f24189c7db0d02f0724, type: 2}
   materials:
     materialImportMode: 1
->>>>>>> work2
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -90,10 +67,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-<<<<<<< HEAD
-=======
     importConstraints: 0
->>>>>>> work2
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -108,23 +82,13 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-<<<<<<< HEAD
-=======
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
->>>>>>> work2
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-<<<<<<< HEAD
-    generateSecondaryUV: 0
-    useFileUnits: 1
-    optimizeMeshForGPU: 1
-    keepQuads: 0
-    weldVertices: 1
-=======
     generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
@@ -135,7 +99,6 @@ ModelImporter:
     minBoneWeight: 0.001
     meshOptimizationFlags: -1
     indexFormat: 0
->>>>>>> work2
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -146,12 +109,6 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-<<<<<<< HEAD
-  importAnimation: 1
-  copyAvatar: 0
-  humanDescription:
-    serializedVersion: 2
-=======
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
@@ -159,7 +116,6 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
->>>>>>> work2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -169,26 +125,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-<<<<<<< HEAD
-    rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
-=======
     globalScale: 1
     rootMotionBoneName: 
->>>>>>> work2
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-<<<<<<< HEAD
-  animationType: 0
-  humanoidOversampling: 1
-=======
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
   avatarSetup: 0
->>>>>>> work2
   additionalBone: 0
   userData: 
   assetBundleName: 

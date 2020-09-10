@@ -77,33 +77,33 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11190}
+      Script: {instanceID: 11194}
     - Class: 114
-      Script: {instanceID: 11270}
+      Script: {instanceID: 11274}
     - Class: 114
-      Script: {instanceID: 11398}
+      Script: {instanceID: 11402}
     - Class: 114
-      Script: {instanceID: 11446}
+      Script: {instanceID: 11450}
     - Class: 114
-      Script: {instanceID: 11960}
+      Script: {instanceID: 11964}
     - Class: 114
-      Script: {instanceID: 12434}
+      Script: {instanceID: 12438}
     - Class: 114
-      Script: {instanceID: 12500}
+      Script: {instanceID: 12504}
     - Class: 114
-      Script: {instanceID: 12842}
+      Script: {instanceID: 12846}
     - Class: 114
-      Script: {instanceID: 13062}
+      Script: {instanceID: 13066}
     - Class: 114
-      Script: {instanceID: 13078}
+      Script: {instanceID: 13082}
     - Class: 114
-      Script: {instanceID: 13108}
+      Script: {instanceID: 13112}
     - Class: 114
-      Script: {instanceID: 13384}
+      Script: {instanceID: 13388}
     - Class: 114
-      Script: {instanceID: 13532}
+      Script: {instanceID: 13536}
     - Class: 114
-      Script: {instanceID: 13548}
+      Script: {instanceID: 13552}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -732,4 +732,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: "C:/Users/eskwo/OneDrive/\uC0AC\uC9C4/\uD310\uB3C4\uB77C\uD050\uBE0C/ProjectBS/Project/Game/Prototype/ProjectBS.exe"
+  playerPath: D:/hjk/projectBS/ProjectBS/Game/Ver0.5/ProjectBS.exe

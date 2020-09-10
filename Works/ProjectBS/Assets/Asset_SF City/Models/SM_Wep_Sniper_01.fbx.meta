@@ -1,47 +1,5 @@
 fileFormatVersion: 2
 guid: 5ae5e894990e35448af3fa1dc1993ab2
-<<<<<<< HEAD
-timeCreated: 1523497668
-licenseType: Store
-ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: SM_Wep_Sniper_ChargeHandle_01
-    100004: SM_Wep_Sniper_Mag_01
-    100006: SM_Wep_Sniper_Scope_01
-    100008: SM_Wep_Sniper_Slide_01
-    100010: SM_Wep_Sniper_Trigger_01
-    400000: //RootNode
-    400002: SM_Wep_Sniper_ChargeHandle_01
-    400004: SM_Wep_Sniper_Mag_01
-    400006: SM_Wep_Sniper_Scope_01
-    400008: SM_Wep_Sniper_Slide_01
-    400010: SM_Wep_Sniper_Trigger_01
-    2300000: //RootNode
-    2300002: SM_Wep_Sniper_ChargeHandle_01
-    2300004: SM_Wep_Sniper_Mag_01
-    2300006: SM_Wep_Sniper_Scope_01
-    2300008: SM_Wep_Sniper_Slide_01
-    2300010: SM_Wep_Sniper_Trigger_01
-    3300000: //RootNode
-    3300002: SM_Wep_Sniper_ChargeHandle_01
-    3300004: SM_Wep_Sniper_Mag_01
-    3300006: SM_Wep_Sniper_Scope_01
-    3300008: SM_Wep_Sniper_Slide_01
-    3300010: SM_Wep_Sniper_Trigger_01
-    4300000: SM_Wep_Sniper_01
-    4300002: SM_Wep_Sniper_Trigger_01
-    4300004: SM_Wep_Sniper_Mag_01
-    4300006: SM_Wep_Sniper_Scope_01
-    4300008: SM_Wep_Sniper_ChargeHandle_01
-    4300010: SM_Wep_Sniper_Slide_01
-    9500000: //RootNode
-  materials:
-    importMaterials: 0
-    materialName: 0
-    materialSearch: 1
-=======
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable:
@@ -144,7 +102,6 @@ ModelImporter:
     materialName: 0
     materialSearch: 1
     materialLocation: 0
->>>>>>> work2
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -157,21 +114,15 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-<<<<<<< HEAD
-=======
     importAnimatedCustomProperties: 0
     importConstraints: 0
->>>>>>> work2
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-<<<<<<< HEAD
-=======
     extraUserProperties: []
->>>>>>> work2
     clipAnimations: []
     isReadable: 0
   meshes:
@@ -179,15 +130,6 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-<<<<<<< HEAD
-    importBlendShapes: 0
-    swapUVChannels: 0
-    generateSecondaryUV: 0
-    useFileUnits: 1
-    optimizeMeshForGPU: 1
-    keepQuads: 0
-    weldVertices: 0
-=======
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 0
@@ -205,7 +147,6 @@ ModelImporter:
     minBoneWeight: 0.001
     meshOptimizationFlags: -1
     indexFormat: 1
->>>>>>> work2
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -215,12 +156,6 @@ ModelImporter:
     normalSmoothAngle: 5
     normalImportMode: 1
     tangentImportMode: 3
-<<<<<<< HEAD
-  importAnimation: 0
-  copyAvatar: 0
-  humanDescription:
-    serializedVersion: 2
-=======
     normalCalculationMode: 0
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
@@ -229,7 +164,6 @@ ModelImporter:
   importAnimation: 0
   humanDescription:
     serializedVersion: 3
->>>>>>> work2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -239,26 +173,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-<<<<<<< HEAD
-    rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
-=======
     globalScale: 1
     rootMotionBoneName: 
->>>>>>> work2
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-<<<<<<< HEAD
-  animationType: 0
-  humanoidOversampling: 1
-=======
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
   avatarSetup: 0
->>>>>>> work2
   additionalBone: 0
   userData: 
   assetBundleName: 

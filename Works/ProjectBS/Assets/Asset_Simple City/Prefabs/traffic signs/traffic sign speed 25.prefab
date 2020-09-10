@@ -12,20 +12,12 @@ GameObject:
   - component: {fileID: 33803512648507000}
   - component: {fileID: 23169690928479004}
   - component: {fileID: 64697303743008698}
-<<<<<<< HEAD
-  m_Layer: 0
-=======
   m_Layer: 11
->>>>>>> work2
   m_Name: sign cycle form
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-<<<<<<< HEAD
-  m_StaticEditorFlags: 18
-=======
   m_StaticEditorFlags: 4294967295
->>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4322227993344870
 Transform:
@@ -111,20 +103,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4357479796045020}
-<<<<<<< HEAD
-  m_Layer: 0
-=======
   m_Layer: 11
->>>>>>> work2
   m_Name: traffic sign speed 25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-<<<<<<< HEAD
-  m_StaticEditorFlags: 18
-=======
   m_StaticEditorFlags: 4294967295
->>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4357479796045020
 Transform:

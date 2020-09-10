@@ -12,20 +12,12 @@ GameObject:
   - component: {fileID: 33000750681490112}
   - component: {fileID: 23140076750290854}
   - component: {fileID: 64057814049388844}
-<<<<<<< HEAD
-  m_Layer: 0
-=======
   m_Layer: 11
->>>>>>> work2
   m_Name: sign cycle form
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-<<<<<<< HEAD
-  m_StaticEditorFlags: 18
-=======
   m_StaticEditorFlags: 4294967295
->>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4053391141972060
 Transform:
@@ -111,20 +103,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4143147175235034}
-<<<<<<< HEAD
-  m_Layer: 0
-=======
   m_Layer: 11
->>>>>>> work2
   m_Name: parking sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-<<<<<<< HEAD
-  m_StaticEditorFlags: 18
-=======
   m_StaticEditorFlags: 4294967295
->>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4143147175235034
 Transform:

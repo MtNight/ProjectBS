@@ -1,17 +1,5 @@
 fileFormatVersion: 2
 guid: 1eff86bacbfcee04fae528f76228c44d
-<<<<<<< HEAD
-timeCreated: 1517349015
-licenseType: Store
-ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Building_F
-=======
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable:
@@ -30,147 +18,84 @@ ModelImporter:
   - first:
       43: 4300000
     second: Building_F
->>>>>>> work2
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Box
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: f24adaf41115ba749b3691087246dc40, type: 2}
-=======
     second: {fileID: 2100000, guid: fa932ef23504a6849b3c5eaca9a68738, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Door_01
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 7fcf9025cfd765242ac08d6408462679, type: 2}
-=======
     second: {fileID: 2100000, guid: 74ef0091517dbba4f9faefc45b1c1984, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Door_02
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: a24e13f41637b404fad9b521b6ff6bc2, type: 2}
-=======
     second: {fileID: 2100000, guid: 3311b95f2acea6249ba4491957af5556, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Door_03
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 401e67d6b5f7c4143887f62da5b22fb8, type: 2}
-=======
     second: {fileID: 2100000, guid: 2b8ad3694b9ece5438f80b192a28a1f9, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Door_04
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 606b40e211d1848458fb6f70986aa4fe, type: 2}
-=======
     second: {fileID: 2100000, guid: 16b49adf11b68ef40ad4b17757c48194, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Door_frames
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: f92d2550c485cfb4a812051c76969338, type: 2}
-=======
     second: {fileID: 2100000, guid: 81949c9f4bdb16f499ce0fc5e8c1f597, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Facade_01
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 54b036310d7d58441a52a350cba7bc01, type: 2}
-=======
     second: {fileID: 2100000, guid: ab16057be71d5db49b74b1ce09037574, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Facade_02
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 138eb3215110b2543866180781a390e7, type: 2}
-=======
     second: {fileID: 2100000, guid: 4be61c07ad5768640b5763d64b6e844f, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Floor_01
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 1bc1661a8d8169a439246112a9b73bea, type: 2}
-=======
     second: {fileID: 2100000, guid: c98df0547c58aa749a2db6d753e69ba0, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Latter_box
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 77ae79bf7a6d48e44badd08d95ff4325, type: 2}
-=======
     second: {fileID: 2100000, guid: c9991afe900f5f5409e8511b4617984f, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Roof
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: f86b91c362dbc2d48b268ba9fe7b2957, type: 2}
-=======
     second: {fileID: 2100000, guid: 89ae238c6a4235a49b63779e62923640, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Window_frames
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: ca89092f388cb9e40b5690d6c874943d, type: 2}
-=======
     second: {fileID: 2100000, guid: d3dcf950e61771e46b954da267e3496a, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Windows_01
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: e3adce03b13b12b41b0fd3ef39d8ba57, type: 2}
-=======
     second: {fileID: 2100000, guid: be3547b9509027d468c89fd19406e4cc, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Windows_02
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 1d691df3204532e489a099fa48e9d9ae, type: 2}
-=======
     second: {fileID: 2100000, guid: d284624274cd78b4caeea6e8ff564feb, type: 2}
->>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: congregate
-<<<<<<< HEAD
-    second: {fileID: 2100000, guid: 926f51a7e1b3084468174325c6d89cdf, type: 2}
-  materials:
-    importMaterials: 1
-=======
     second: {fileID: 2100000, guid: 8fe8e9f40ea0c8747b05551228745464, type: 2}
   materials:
     materialImportMode: 1
->>>>>>> work2
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -187,10 +112,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-<<<<<<< HEAD
-=======
     importConstraints: 0
->>>>>>> work2
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -205,23 +127,13 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-<<<<<<< HEAD
-=======
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
->>>>>>> work2
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-<<<<<<< HEAD
-    generateSecondaryUV: 0
-    useFileUnits: 1
-    optimizeMeshForGPU: 1
-    keepQuads: 0
-    weldVertices: 1
-=======
     generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
@@ -232,7 +144,6 @@ ModelImporter:
     minBoneWeight: 0.001
     meshOptimizationFlags: -1
     indexFormat: 0
->>>>>>> work2
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -243,12 +154,6 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-<<<<<<< HEAD
-  importAnimation: 1
-  copyAvatar: 0
-  humanDescription:
-    serializedVersion: 2
-=======
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
@@ -256,7 +161,6 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
->>>>>>> work2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -266,26 +170,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-<<<<<<< HEAD
-    rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
-=======
     globalScale: 1
     rootMotionBoneName: 
->>>>>>> work2
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-<<<<<<< HEAD
-  animationType: 0
-  humanoidOversampling: 1
-=======
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
   avatarSetup: 0
->>>>>>> work2
   additionalBone: 0
   userData: 
   assetBundleName: 
