@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 guid: 89c3425c9ff526249a9bf0126e4a97f9
+<<<<<<< HEAD
 timeCreated: 1517349115
 licenseType: Store
 ModelImporter:
@@ -10,24 +11,58 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: bus stop
+=======
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      23: 2300000
+    second: //RootNode
+  - first:
+      33: 3300000
+    second: //RootNode
+  - first:
+      43: 4300000
+    second: bus stop
+>>>>>>> work2
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: bus stop
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: 0f077f593064e134a96aab433372a8a6, type: 2}
+=======
+    second: {fileID: 2100000, guid: b02d07367f04ea446890b6fdfe2f9f07, type: 2}
+>>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: glass
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: e3b42ef0b13d40042b83e1147469d47e, type: 2}
+=======
+    second: {fileID: 2100000, guid: 90e58d4b45e208b43bb32d978ad328d5, type: 2}
+>>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: texture
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: 962b30eb1e1c29044a03084912fa3eba, type: 2}
   materials:
     importMaterials: 1
+=======
+    second: {fileID: 2100000, guid: 65a1f9930bef3234b88af8fb16117bc1, type: 2}
+  materials:
+    materialImportMode: 1
+>>>>>>> work2
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -44,6 +79,10 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+<<<<<<< HEAD
+=======
+    importConstraints: 0
+>>>>>>> work2
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -58,16 +97,34 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+<<<<<<< HEAD
+=======
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+>>>>>>> work2
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
+<<<<<<< HEAD
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+=======
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+>>>>>>> work2
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -78,10 +135,20 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+<<<<<<< HEAD
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
+=======
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+>>>>>>> work2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -91,14 +158,26 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+<<<<<<< HEAD
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+=======
+    globalScale: 1
+    rootMotionBoneName: 
+>>>>>>> work2
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+<<<<<<< HEAD
   animationType: 0
   humanoidOversampling: 1
+=======
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+>>>>>>> work2
   additionalBone: 0
   userData: 
   assetBundleName: 

@@ -17,7 +17,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &8528282627538817613
 Transform:
@@ -111,7 +115,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &956885317860257000
 Transform:
@@ -202,7 +210,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &5828743964090171331
 Transform:
@@ -233,7 +245,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &9163418942673126844
 Transform:
@@ -264,7 +280,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7389939926246507598
 Transform:
@@ -298,7 +318,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4076647184783492210
 Transform:
@@ -392,7 +416,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &5961226175568391671
 Transform:
@@ -483,7 +511,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &2170913978264376462
 Transform:
@@ -514,7 +546,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &8987783476379302961
 Transform:
@@ -548,7 +584,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4233422372804270134
 Transform:
@@ -639,7 +679,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &732655565254547865
 Transform:
@@ -673,7 +717,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &3469893508320541573
 Transform:
@@ -767,7 +815,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &383993178412701506
 Transform:
@@ -858,7 +910,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &6772284064360886955
 Transform:
@@ -892,7 +948,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7098092566272975288
 Transform:
@@ -983,7 +1043,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &9126145965095262009
 Transform:
@@ -1017,7 +1081,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7987782991670242353
 Transform:
@@ -1111,7 +1179,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &1785351281514320450
 Transform:
@@ -1205,7 +1277,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4803315103906492780
 Transform:
@@ -1296,7 +1372,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &657724166835509518
 Transform:
@@ -1327,7 +1407,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &8256931276471377652
 Transform:
@@ -1361,7 +1445,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &3205555753142339538
 Transform:
@@ -1452,7 +1540,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7372747542385930784
 Transform:
@@ -1486,7 +1578,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &5409146605593443111
 Transform:
@@ -1577,7 +1673,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &6065742057198245841
 Transform:
@@ -1611,7 +1711,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &8298444359083789482
 Transform:
@@ -1702,7 +1806,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &1683360357589579773
 Transform:
@@ -1733,7 +1841,11 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4737362909050156736
 Transform:
@@ -1775,7 +1887,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &2106489627754053616
 Transform:
@@ -1869,7 +1985,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &798181615044056299
 Transform:
@@ -1963,7 +2083,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7703972374002370826
 Transform:
@@ -2054,7 +2178,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7822612092613754722
 Transform:
@@ -2085,7 +2213,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &298236195042045530
 Transform:
@@ -2119,7 +2251,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4250772403703861306
 Transform:
@@ -2213,7 +2349,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7319447276648699294
 Transform:
@@ -2304,7 +2444,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4562225358470273878
 Transform:
@@ -2335,7 +2479,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4936691773058180292
 Transform:
@@ -2366,7 +2514,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &5970894633954900610
 Transform:
@@ -2397,7 +2549,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &518407041296681382
 Transform:
@@ -2431,7 +2587,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &5657446449147639837
 Transform:
@@ -2525,7 +2685,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &5922498946660309987
 Transform:
@@ -2619,7 +2783,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &3114746994853576442
 Transform:
@@ -2710,7 +2878,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &1772315517219257518
 Transform:
@@ -2744,7 +2916,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &5953805266384122398
 Transform:
@@ -2838,7 +3014,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &3931421594100043414
 Transform:
@@ -2929,7 +3109,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &594142237028290881
 Transform:
@@ -2963,7 +3147,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &1799344598648540367
 Transform:
@@ -3057,7 +3245,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &266901719605576463
 Transform:
@@ -3148,7 +3340,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &6949972415301607397
 Transform:
@@ -3179,7 +3375,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &6341965133899940034
 Transform:
@@ -3210,7 +3410,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &1413682005288663843
 Transform:
@@ -3241,7 +3445,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4757043280199872877
 Transform:
@@ -3275,7 +3483,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7565761214232968413
 Transform:
@@ -3366,7 +3578,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &3695635389858170130
 Transform:
@@ -3397,7 +3613,11 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &2504905285170421598
 Transform:
@@ -3439,7 +3659,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &147715985710732371
 Transform:
@@ -3470,7 +3694,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &3155579437808128774
 Transform:
@@ -3501,7 +3729,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &6949970061774100616
 Transform:
@@ -3532,7 +3764,11 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &818571818732459457
 Transform:
@@ -3572,7 +3808,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &6166927974130251521
 Transform:
@@ -3663,7 +3903,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &9119745311781089887
 Transform:
@@ -3697,7 +3941,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4739114544548112953
 Transform:
@@ -3791,7 +4039,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7066940115524370959
 Transform:
@@ -3882,7 +4134,11 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967295
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &1153489159762538811
 Transform:
@@ -3917,7 +4173,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &545759889113678789
 Transform:
@@ -4008,7 +4268,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &8802696259129590877
 Transform:
@@ -4039,7 +4303,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &8913373940451580392
 Transform:
@@ -4070,7 +4338,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &8701234231086409373
 Transform:
@@ -4104,7 +4376,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &8541240055463356545
 Transform:
@@ -4195,7 +4471,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &3707592324419406745
 Transform:
@@ -4226,7 +4506,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &2164559287757451618
 Transform:
@@ -4260,7 +4544,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &3798467667022880809
 Transform:
@@ -4354,7 +4642,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &9189873373630107988
 Transform:
@@ -4448,7 +4740,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &9181260572665865916
 Transform:
@@ -4542,7 +4838,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4915816135962088350
 Transform:
@@ -4633,7 +4933,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4436340112497192093
 Transform:
@@ -4667,7 +4971,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &2899776533284477366
 Transform:
@@ -4758,7 +5066,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4124099774145422266
 Transform:
@@ -4789,7 +5101,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &967224732182720596
 Transform:
@@ -4820,7 +5136,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &5155459824990893128
 Transform:
@@ -4851,7 +5171,11 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &158835110950499869
 Transform:
@@ -4893,7 +5217,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &3738706993542553110
 Transform:
@@ -4984,7 +5312,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7048432181280873223
 Transform:
@@ -5018,7 +5350,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &3795884682007566868
 Transform:
@@ -5109,7 +5445,11 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4872267958529578874
 Transform:
@@ -5150,7 +5490,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4507482190437201422
 Transform:
@@ -5241,7 +5585,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &3757798193671526374
 Transform:
@@ -5272,7 +5620,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &2466711032406285069
 Transform:
@@ -5303,7 +5655,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &5822383311760346753
 Transform:
@@ -5334,7 +5690,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &1491694300391371826
 Transform:
@@ -5368,7 +5728,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &46403586968820193
 Transform:
@@ -5459,7 +5823,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &5255667078531690889
 Transform:
@@ -5490,7 +5858,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &8302023222228061779
 Transform:
@@ -5521,7 +5893,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &6963394909115157807
 Transform:
@@ -5552,7 +5928,11 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &1843038383914916833
 Transform:
@@ -5590,7 +5970,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &174442002094372011
 Transform:
@@ -5624,7 +6008,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7981550014524161209
 Transform:
@@ -5715,7 +6103,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &3538954540482376386
 Transform:
@@ -5746,7 +6138,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &1702531525690968211
 Transform:
@@ -5777,7 +6173,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7162711609693221195
 Transform:
@@ -5811,7 +6211,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7201763201244009167
 Transform:
@@ -5905,7 +6309,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4264409311430649375
 Transform:
@@ -5996,7 +6404,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &2298308066698266436
 Transform:
@@ -6030,7 +6442,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &2066941174179836059
 Transform:
@@ -6123,7 +6539,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4547537001645493772
 Transform:
@@ -6154,7 +6574,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7068791201342875424
 Transform:
@@ -6185,7 +6609,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &5520584270580752942
 Transform:
@@ -6216,7 +6644,11 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7152217034571870197
 Transform:
@@ -6257,7 +6689,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &3222172046436946700
 Transform:
@@ -6351,7 +6787,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &6060233777138128248
 Transform:
@@ -6442,7 +6882,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4323754723159349425
 Transform:
@@ -6476,7 +6920,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7920038824351948050
 Transform:
@@ -6570,7 +7018,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &3762411477573443371
 Transform:
@@ -6664,7 +7116,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7544001444967541417
 Transform:
@@ -6758,7 +7214,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7258243496539781400
 Transform:
@@ -6849,7 +7309,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &8571781959026450897
 Transform:
@@ -6883,7 +7347,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7485320240390252960
 Transform:
@@ -6974,7 +7442,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &862802836097842628
 Transform:
@@ -7005,7 +7477,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &6409177269159267641
 Transform:
@@ -7036,7 +7512,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &9054169460579519548
 Transform:
@@ -7067,7 +7547,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &3177342569166176480
 Transform:
@@ -7098,7 +7582,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &2103459725765359309
 Transform:
@@ -7141,7 +7629,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &2281525121700286282
 Transform:
@@ -7235,7 +7727,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &5146467506518594500
 Transform:
@@ -7326,7 +7822,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &2387728289460865492
 Transform:
@@ -7360,7 +7860,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7933506663478123012
 Transform:
@@ -7454,7 +7958,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &3802839716115060121
 Transform:
@@ -7548,7 +8056,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &8566113786492273686
 Transform:
@@ -7642,7 +8154,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &1244286202768269985
 Transform:
@@ -7736,7 +8252,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &3277935286409882360
 Transform:
@@ -7830,7 +8350,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &8155428869375542435
 Transform:
@@ -7921,7 +8445,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &1888909742002876720
 Transform:
@@ -7952,7 +8480,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &2884698127893728231
 Transform:
@@ -7983,7 +8515,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4482513274386551688
 Transform:
@@ -8014,7 +8550,11 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &1815543221218827421
 Transform:
@@ -8052,7 +8592,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &1179131358953060180
 Transform:
@@ -8143,7 +8687,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4293964587460299206
 Transform:
@@ -8177,7 +8725,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &8683959886443560835
 Transform:
@@ -8271,7 +8823,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &1154533048354215799
 Transform:
@@ -8362,7 +8918,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &5436164041621149230
 Transform:
@@ -8396,7 +8956,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7190305544307221223
 Transform:
@@ -8487,7 +9051,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7335913305698985752
 Transform:
@@ -8518,7 +9086,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &8607576196895209383
 Transform:
@@ -8552,7 +9124,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &2253305635184798137
 Transform:
@@ -8643,7 +9219,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &8857855002493371286
 Transform:
@@ -8674,7 +9254,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4816904084521603404
 Transform:
@@ -8708,7 +9292,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &5582371561848497141
 Transform:
@@ -8799,7 +9387,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7201745270760017309
 Transform:
@@ -8830,7 +9422,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &6476309056723062115
 Transform:
@@ -8864,7 +9460,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &5578402057385199863
 Transform:
@@ -8958,7 +9558,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4863670564163586352
 Transform:
@@ -9049,7 +9653,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &8406038900580722756
 Transform:
@@ -9083,7 +9691,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7517690372875890022
 Transform:
@@ -9177,7 +9789,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &19004434729143959
 Transform:
@@ -9268,7 +9884,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &6800973116611356005
 Transform:
@@ -9299,7 +9919,11 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &832443158550326580
 Transform:
@@ -9339,7 +9963,11 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &2860910214952451786
 Transform:
@@ -9375,7 +10003,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &2467892052906623904
 Transform:
@@ -9406,7 +10038,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &6596250694202232380
 Transform:
@@ -9440,7 +10076,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &1456377672119349925
 Transform:
@@ -9534,7 +10174,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &2670012952048426914
 Transform:
@@ -9628,7 +10272,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7117776718893189270
 Transform:
@@ -9722,7 +10370,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &3802221961439552450
 Transform:
@@ -9816,7 +10468,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &851521944347799916
 Transform:
@@ -9907,7 +10563,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &6049401118639457971
 Transform:
@@ -9941,7 +10601,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &3945882244456407051
 Transform:
@@ -10035,7 +10699,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7162562218405850471
 Transform:
@@ -10129,7 +10797,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4147173747650948993
 Transform:
@@ -10220,7 +10892,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &2998739630310440453
 Transform:
@@ -10254,7 +10930,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4744898147022823510
 Transform:
@@ -10348,7 +11028,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &3549566172475480490
 Transform:
@@ -10439,7 +11123,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &3154426550990196697
 Transform:
@@ -10470,7 +11158,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7618049033355463761
 Transform:
@@ -10504,7 +11196,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &8093532827700188211
 Transform:
@@ -10598,7 +11294,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &8112801378989705183
 Transform:
@@ -10689,7 +11389,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &7552100744193058517
 Transform:
@@ -10720,7 +11424,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &5884294350430971284
 Transform:
@@ -10754,7 +11462,11 @@ GameObject:
   m_TagString: Land
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 4294967277
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &1975649185838688477
 Transform:

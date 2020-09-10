@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 guid: b18688407a41db44eb3a0f085e9b0e9f
+<<<<<<< HEAD
 timeCreated: 1517349141
 licenseType: Store
 ModelImporter:
@@ -19,14 +20,67 @@ ModelImporter:
     3300004: //RootNode
     4300000: hedge
     4300002: Cube
+=======
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Cube
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: hedge
+  - first:
+      4: 400000
+    second: Cube
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: hedge
+  - first:
+      23: 2300000
+    second: Cube
+  - first:
+      23: 2300002
+    second: hedge
+  - first:
+      23: 2300004
+    second: //RootNode
+  - first:
+      33: 3300000
+    second: Cube
+  - first:
+      33: 3300002
+    second: hedge
+  - first:
+      33: 3300004
+    second: //RootNode
+  - first:
+      43: 4300000
+    second: hedge
+  - first:
+      43: 4300002
+    second: Cube
+>>>>>>> work2
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: No Name
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: f1c50fa71e9c8264faee6f4074bc8528, type: 2}
   materials:
     importMaterials: 1
+=======
+    second: {fileID: 2100000, guid: ad5f01cfb4576544eb1507c7e1f9052c, type: 2}
+  materials:
+    materialImportMode: 1
+>>>>>>> work2
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -43,6 +97,10 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+<<<<<<< HEAD
+=======
+    importConstraints: 0
+>>>>>>> work2
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -57,16 +115,34 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+<<<<<<< HEAD
+=======
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+>>>>>>> work2
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
+<<<<<<< HEAD
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+=======
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+>>>>>>> work2
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -77,10 +153,20 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+<<<<<<< HEAD
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
+=======
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+>>>>>>> work2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -90,14 +176,26 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+<<<<<<< HEAD
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+=======
+    globalScale: 1
+    rootMotionBoneName: 
+>>>>>>> work2
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+<<<<<<< HEAD
   animationType: 0
   humanoidOversampling: 1
+=======
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+>>>>>>> work2
   additionalBone: 0
   userData: 
   assetBundleName: 

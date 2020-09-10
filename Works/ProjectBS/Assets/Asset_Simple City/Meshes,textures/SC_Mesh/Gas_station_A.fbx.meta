@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 guid: 5bb97b332176ae0499af0f666e4f5828
+<<<<<<< HEAD
 timeCreated: 1517417420
 licenseType: Store
 ModelImporter:
@@ -10,94 +11,184 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Cube
+=======
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      23: 2300000
+    second: //RootNode
+  - first:
+      33: 3300000
+    second: //RootNode
+  - first:
+      43: 4300000
+    second: Cube
+>>>>>>> work2
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Door_01
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: 7d8d3fb9be38d5c40a72994486b7eaa3, type: 2}
+=======
+    second: {fileID: 2100000, guid: f9592892094acb24da2b90189e525604, type: 2}
+>>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Door_02
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: 0c8acde9c84d2b94d8d31265269673b2, type: 2}
+=======
+    second: {fileID: 2100000, guid: f943d4f9c9a334944a87e10f9d5425ac, type: 2}
+>>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Door_03
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: 91e4412525d855a46a9fe1f65b18e217, type: 2}
+=======
+    second: {fileID: 2100000, guid: 185f306e7636a2a488d7bcbde66328fc, type: 2}
+>>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Facade
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: 6e612f6769943644f8b0664b7e37fd31, type: 2}
+=======
+    second: {fileID: 2100000, guid: f48b556deb785c346a7d0cfff1bee13a, type: 2}
+>>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Floor
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: a61a99d0aca7e4a4c929ec32a76b7988, type: 2}
+=======
+    second: {fileID: 2100000, guid: ab6e05db7e28ab444a229fe1ca0dbc85, type: 2}
+>>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Metal
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: a6cf11d2325d406479bd977a94ff0b11, type: 2}
+=======
+    second: {fileID: 2100000, guid: a54d8fe539c80914b83c9efbe383a4b0, type: 2}
+>>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Metal_02
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: cd28843a045f1014f983a7d66248750b, type: 2}
+=======
+    second: {fileID: 2100000, guid: 8934779639fdc77408d59016fa3286ec, type: 2}
+>>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Pole
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: ecc4c5f60f0e14143a4f9e895e334bec, type: 2}
+=======
+    second: {fileID: 2100000, guid: deea1a1c6a02b50429ccbfac2a576872, type: 2}
+>>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Roof_01
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: 98bdd990a4918d143b37d81b77341b30, type: 2}
+=======
+    second: {fileID: 2100000, guid: e82689b81037f874b9c152306bc87877, type: 2}
+>>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Roof_02
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: b47dc011f37ef4541a163ea52ead8aed, type: 2}
+=======
+    second: {fileID: 2100000, guid: f085dc43d9b88984a86dbab5deb8d937, type: 2}
+>>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Roof_03
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: 921d32db52b426a4d802a36f03b74798, type: 2}
+=======
+    second: {fileID: 2100000, guid: 453f488791a17a8409f614b530a7ff15, type: 2}
+>>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Roof_04
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: 8eac01ad03edf2c4e9ed70cdc5a1f780, type: 2}
+=======
+    second: {fileID: 2100000, guid: 995fa76dcc7fc6e49a158c26dd1c95e5, type: 2}
+>>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Stone_01
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: fa2eeae0edf43d5438622b1c53f34be5, type: 2}
+=======
+    second: {fileID: 2100000, guid: 24faa158fd180e147aa0aa437c88227f, type: 2}
+>>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Stone_02
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: 5a4184550db114648b50cb1aa4d7c4e7, type: 2}
+=======
+    second: {fileID: 2100000, guid: 11160fb530c0e9548a9e3edb581032bc, type: 2}
+>>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Texture
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: bc47f324d1ed9d84cb8b0d39e26d33e1, type: 2}
+=======
+    second: {fileID: 2100000, guid: 589d4ed0c6a46a44d8c4c2ebdac81808, type: 2}
+>>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Windows
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: 5af97bfd28d3c644992cb9e53a49b7c2, type: 2}
+=======
+    second: {fileID: 2100000, guid: 8d187e0714d85984790f8576d1f6301e, type: 2}
+>>>>>>> work2
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: window_frames
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: 880c4012dc72a9b4881f02ba591fa60a, type: 2}
   materials:
     importMaterials: 1
+=======
+    second: {fileID: 2100000, guid: 2fe3f4da477be984d8428b709fd9e6e7, type: 2}
+  materials:
+    materialImportMode: 1
+>>>>>>> work2
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -114,6 +205,10 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+<<<<<<< HEAD
+=======
+    importConstraints: 0
+>>>>>>> work2
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -128,16 +223,34 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+<<<<<<< HEAD
+=======
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+>>>>>>> work2
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
+<<<<<<< HEAD
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+=======
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+>>>>>>> work2
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -148,10 +261,20 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+<<<<<<< HEAD
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
+=======
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+>>>>>>> work2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -161,14 +284,26 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+<<<<<<< HEAD
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+=======
+    globalScale: 1
+    rootMotionBoneName: 
+>>>>>>> work2
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+<<<<<<< HEAD
   animationType: 0
   humanoidOversampling: 1
+=======
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+>>>>>>> work2
   additionalBone: 0
   userData: 
   assetBundleName: 

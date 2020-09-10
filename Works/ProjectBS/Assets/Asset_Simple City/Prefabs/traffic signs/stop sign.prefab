@@ -9,12 +9,20 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4726755904831600}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 11
+>>>>>>> work2
   m_Name: stop sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 18
+=======
+  m_StaticEditorFlags: 4294967295
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4726755904831600
 Transform:
@@ -43,12 +51,20 @@ GameObject:
   - component: {fileID: 33674946519311604}
   - component: {fileID: 23319005079194412}
   - component: {fileID: 64946957655332438}
+<<<<<<< HEAD
   m_Layer: 0
+=======
+  m_Layer: 11
+>>>>>>> work2
   m_Name: sign cycle form
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< HEAD
   m_StaticEditorFlags: 18
+=======
+  m_StaticEditorFlags: 4294967295
+>>>>>>> work2
   m_IsActive: 1
 --- !u!4 &4354033267146558
 Transform:

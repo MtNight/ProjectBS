@@ -78,7 +78,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1276862051916332, guid: 1be61187b5d765449be824463642cb0f, type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: Tree2 prefab
+=======
+      value: Tree2 prefab Variant
+>>>>>>> work2
       objectReference: {fileID: 0}
     - target: {fileID: 4379673244704792, guid: 1be61187b5d765449be824463642cb0f, type: 3}
       propertyPath: m_LocalPosition.x
