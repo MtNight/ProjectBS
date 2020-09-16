@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4188391604013528}
   - component: {fileID: 108608593790886252}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BakedLight 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 33949227002734972}
   - component: {fileID: 23313274436098566}
   - component: {fileID: 64110442918888636}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Lamp 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -150,6 +150,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -175,6 +176,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &64110442918888636
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -185,7 +187,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 2cdf68410101ccc4cb2930f04309b21e, type: 3}
@@ -199,7 +201,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4950870633830506}
   - component: {fileID: 108184988943879268}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BakedLight 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -290,7 +292,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4970097318695902}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Lamp_1_prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}

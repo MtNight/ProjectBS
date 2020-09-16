@@ -3,6 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/*
+ - Gallay Function (Create Photo, Set Gallary, Delete Photo)
+ - Turn On / Off gallary
+ - Turn On / Off landscape mode
+ - Phone Movement
+ */
+
+//Photo Class
 public class Photo
 {
     Texture2D image;
@@ -27,18 +35,19 @@ public class Photo
 
     public Texture2D GetImage() { return image; }
     public bool GetMode() { return isLandscapeMode; }
-    public void DestroyImage() { Object.Destroy(image); }
+    public void DestroyImage() { /*Object.Destroy(image);*/ }
 }
 
 public class PhoneGallary : MonoBehaviour {
 
-    public GameObject camCanvas, phoneCanvas;
-    public GameObject gallarySeleted, gallaryScroll, deleteWindow;
-    public List<Photo> gallaryImages = new List<Photo>();
-    public List<GameObject> gallaryScrolls = new List<GameObject>();
-    private List<float> gallaryScrollTarget = new List<float>();
-    public GameObject scrollImagePrefeb;
-    public GameObject mainCamera;
+    public GameObject mainCamera;   //Camera
+    public GameObject camCanvas, phoneCanvas;   //Canvases
+    public GameObject gallarySeleted, gallaryScroll, deleteWindow;  //Gallary Component
+    
+    public List<Photo> gallaryImages = new List<Photo>();           //List of Photo Class
+    public List<GameObject> gallaryScrolls = new List<GameObject>();//List of Photo's Scroll GameObject
+    private List<float> gallaryScrollXpos = new List<float>();      //List of Scroll Photo's x position
+    public GameObject scrollImagePrefeb;   //Instance for scroll
 
     int selectNum = 0;
     public bool isGallary;
@@ -47,7 +56,6 @@ public class PhoneGallary : MonoBehaviour {
 
     void Start ()
     {
-        
         camCanvas = transform.GetChild(2).gameObject;
         phoneCanvas = transform.GetChild(3).gameObject;
         gallarySeleted = phoneCanvas.transform.GetChild(0).gameObject;
@@ -58,64 +66,65 @@ public class PhoneGallary : MonoBehaviour {
         isGallary = false;
         isCheckDeletion = false;
         isLandscapeMode = false;
-
     }
 
     void Update ()
     {
-        //input key
+        //Gallary Key input
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             isGallary = !isGallary;
             ToggleGallary();
         }
 
-        //in gallary
+        //In gallary
         if (isGallary == true)
         {
             if (gallaryImages.Count > 0)
-            {//delete
+            {
+                //Delete Photo
                 if (Input.GetKeyDown(KeyCode.R))
                 {
                     isCheckDeletion = true;
                     deleteWindow.SetActive(true);
                 }
 
-
                 if (isCheckDeletion == true)
                 {
-                    //delete check
+                    //create deletion checking window
                     ConfirmDeletion(selectNum);
                 }
                 if (isCheckDeletion != true)
                 {
-                    //select other image by mouse wheel
+                    //Select other image by mouse wheel (scrolling)
                     float wheelInput = Input.GetAxis("Mouse ScrollWheel");
-                    if (wheelInput > 0)
+                    if (wheelInput > 0)         //WheelDown = PhotoRight
                     {
                         if (selectNum < gallaryImages.Count - 1)
                         {
-                            RefreshSelectedImage(selectNum + 1);
-                            SetScrollImages();
+                            selectNum++;
+                            RefreshSelectedImage();
+                            RefreshScrollImage();
                             //Debug.Log("WheelDown");
                         }
                     }
-                    else if (wheelInput < 0)
+                    else if (wheelInput < 0)    //WheelUp = PhotoLeft
                     {
                         if (selectNum > 0)
                         {
-                            RefreshSelectedImage(selectNum - 1);
-                            SetScrollImages();
+                            selectNum--;
+                            RefreshSelectedImage();
+                            RefreshScrollImage();
                             //Debug.Log("WheelUp");
                         }
                     }
                 }
 
-                //selected image rotation setting
+                //Selected image setting
                 float rotationSetting = 0;
                 float scaleSettingX = 11;
                 float scaleSettingY = 11;
-                if (gallaryImages[selectNum].GetMode() == true)
+                if (gallaryImages[selectNum].GetMode() == true) //Landscape Mode Setting
                 {
                     rotationSetting = 90.0f;
                     scaleSettingX *= 0.75f / 2;
@@ -131,18 +140,17 @@ public class PhoneGallary : MonoBehaviour {
                 gallarySeleted.transform.localScale = tmpScale;
 
                 //scrolling image
-                for (int i = gallaryScrolls.Count - 1; i >= 0; i--)
+                for (int i = 0; i < gallaryScrolls.Count; i++)
                 {
                     int scrollSpeed = 5;
-                    float lerpX = Mathf.Lerp(gallaryScrolls[i].transform.localPosition.x, gallaryScrollTarget[i], Time.deltaTime * scrollSpeed);
+                    float lerpX = Mathf.Lerp(gallaryScrolls[i].transform.localPosition.x, gallaryScrollXpos[i], Time.deltaTime * scrollSpeed);
                     gallaryScrolls[i].transform.localPosition = new Vector3(lerpX, -520, 0);
                 }
             }
-            
         }
         else
         {
-            //change mode in camera
+            //Change camera mode (Normal - Landscape)
             if (Input.GetMouseButton(1))    //right button
             {
                 isLandscapeMode = true;
@@ -153,7 +161,7 @@ public class PhoneGallary : MonoBehaviour {
             }
         }
 
-        //change direction of phone
+        //Phone Movement
         int changeSpeed = 5;
         if (isLandscapeMode == true)    //right button
         {
@@ -167,12 +175,11 @@ public class PhoneGallary : MonoBehaviour {
             tmpRot.z = Mathf.Lerp(tmpRot.z, 180, Time.deltaTime * changeSpeed);
             transform.rotation = Quaternion.Euler(tmpRot);
         }
-
     }
 
+    //Turn on/off gallary
     private void ToggleGallary()
     {
-
         if (isGallary == true)
         {
             camCanvas.SetActive(false);
@@ -181,42 +188,52 @@ public class PhoneGallary : MonoBehaviour {
             isCheckDeletion = false;
             isLandscapeMode = false;
             deleteWindow.SetActive(false);
-            ImageLoad(gallaryImages.Count - 1);
+            ImageLoad();
         }
         else
         {
             camCanvas.SetActive(true);
             phoneCanvas.SetActive(false);
         }
-
     }
 
+    //Create new photo (from 'ScreenShot' script)
     public void ImageSave(Texture2D SS, string name, int num)
     {
-
         //string path = "ScreenShot/" + name;
         //gallaryPath.Add(path);
         Photo tmpPhoto = new Photo(SS, name, isLandscapeMode, num);
         gallaryImages.Add(tmpPhoto);
-
+        selectNum = gallaryImages.Count - 1;
     }
-    public void ImageLoad(int idx)
+
+    //Initiallize Gallary
+    public void ImageLoad()
     {
-
         if (gallaryImages.Count <= 0) { return; }
-        RefreshSelectedImage(idx);
+        //Set Selected image
+        RefreshSelectedImage();
 
-        //delete every scroll picture
-        for (int i = gallaryScrolls.Count - 1; i >= 0; i--)
+        //delete every scroll photos
+        for (int i = 0; i < gallaryScrolls.Count; i++)
         {
             Destroy(gallaryScrolls[i]);
         }
 
         //reset contents
         gallaryScrolls.Clear();
-        gallaryScrollTarget.Clear();
+        gallaryScrollXpos.Clear();
 
         //create images
+        CreateImage();
+
+        //locate Scroll images
+        RefreshScrollImage();
+    }
+
+    //create images
+    void CreateImage()
+    {
         for (int i = gallaryImages.Count - 1; i >= 0; i--)
         {
             GameObject g = Instantiate(scrollImagePrefeb, new Vector3(0, 0, 0), Quaternion.identity);
@@ -228,46 +245,48 @@ public class PhoneGallary : MonoBehaviour {
             float scaleSettingY = 3.5f * 0.75f;
             float w = tmp.width;
             float h = tmp.height;
-            if (gallaryImages[i].GetMode() == true)
+            if (gallaryImages[i].GetMode() == true) //Landscape Mode Setting
             {
                 rotationSetting = 90.0f;
                 scaleSettingX *= 0.75f;
                 scaleSettingY /= 0.75f;
-                //w /= 2;
-                //h *= 2;
             }
+
             g.transform.localPosition = new Vector3(((gallaryImages.Count - 1) - i) * 400, -520, 0);
             g.transform.localEulerAngles = new Vector3(0, 0, rotationSetting);
             g.transform.localScale = new Vector3(scaleSettingX, scaleSettingY, 1);
             g.GetComponent<Image>().sprite = Sprite.Create(tmp, new Rect(0, h / 4, w, h / 2), new Vector2(0.5f, 0.5f));
 
             gallaryScrolls.Add(g);
-            gallaryScrollTarget.Add(g.transform.position.x);
+            gallaryScrollXpos.Add(g.transform.position.x);
         }
-        SetScrollImages();
 
     }
-    void RefreshSelectedImage(int idx)
-    {
 
-        selectNum = idx;
-        if (selectNum >= gallaryImages.Count) selectNum = gallaryImages.Count - 1;
-        if (selectNum < 0) selectNum = 0;
+    //Set Seleted image
+    void RefreshSelectedImage()
+    {
+        if (selectNum >= gallaryImages.Count) { selectNum = gallaryImages.Count - 1; }
+        if (selectNum < 0) { selectNum = 0; }
         Texture2D t = gallaryImages[selectNum].GetImage();
 
         Rect tmpRect = new Rect(0, 0, t.width, t.height);
         gallarySeleted.GetComponent<Image>().sprite = Sprite.Create(t, tmpRect, new Vector2(0.5f, 0.5f));
-   
     }
-    void SetScrollImages()
+
+    //Set scroll image's location
+    void RefreshScrollImage()
     {
-
-        for (int i = gallaryScrolls.Count - 1; i >= 0; i--)
+        if (selectNum >= gallaryImages.Count) { selectNum = gallaryImages.Count - 1; }
+        if (selectNum < 0) { selectNum = 0; }
+        for (int i = 0; i < gallaryScrolls.Count; i++)
         {
-            gallaryScrollTarget[i] = (i - (gallaryScrolls.Count - selectNum - 1)) * 400;
+            //gallaryScrollXpos[i] = (i - (gallaryScrolls.Count - selectNum - 1)) * 400;
+            gallaryScrollXpos[i] = (i + selectNum - (gallaryImages.Count - 1)) * 400;
         }
-
     }
+
+    //Check Photo Deletion
     void ConfirmDeletion(int idx)
     {
         if (Input.GetMouseButtonDown(1))        //right button == Yes
@@ -282,14 +301,25 @@ public class PhoneGallary : MonoBehaviour {
             deleteWindow.SetActive(false);
         }
     }
+
+    //Delete Photo
     void DeletePicture(int idx)
     {
-
         if (gallaryImages.Count <= 0) { return; }
-        //Destroy(gallaryImages[idx]);
+
         gallaryImages[idx].DestroyImage();
         gallaryImages.RemoveAt(idx);
-        ImageLoad(idx);
+        GameObject g = gallaryScrolls[(gallaryScrolls.Count - 1) - idx];
+        gallaryScrolls.RemoveAt((gallaryScrolls.Count - 1) - idx);
+        Destroy(g);
+        gallaryScrollXpos.RemoveAt((gallaryScrollXpos.Count - 1) - idx);
 
+        //relocate scroll images
+        if (idx != 0)
+        {
+            selectNum--;
+        }
+        RefreshSelectedImage();
+        RefreshScrollImage();
     }
 }

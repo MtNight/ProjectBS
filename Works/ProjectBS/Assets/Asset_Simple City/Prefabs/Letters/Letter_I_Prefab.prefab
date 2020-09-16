@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4658772422090212}
   - component: {fileID: 33047488253629428}
   - component: {fileID: 23136589638490602}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Letter_I
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,6 +55,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -79,6 +80,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1632734428406452
 GameObject:
   m_ObjectHideFlags: 0
@@ -88,7 +90,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4043444765430646}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Letter_I_Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}

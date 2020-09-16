@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4711787316519028}
   - component: {fileID: 108546760131175710}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: baked light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 33605661506549380}
   - component: {fileID: 23556876736857538}
   - component: {fileID: 64336747843363168}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: street lamp 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -149,6 +149,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -174,6 +175,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &64336747843363168
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -184,7 +186,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: c676bc2cbcce204439e758464c03bcc1, type: 3}
@@ -197,7 +199,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4088839632586982}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: street lamp 2 prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}

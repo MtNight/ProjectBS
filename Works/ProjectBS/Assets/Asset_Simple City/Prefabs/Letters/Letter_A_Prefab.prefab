@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4453430176811854}
   - component: {fileID: 33164335770178526}
   - component: {fileID: 23951429543110816}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,6 +55,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -79,6 +80,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1452607430511792
 GameObject:
   m_ObjectHideFlags: 0
@@ -88,7 +90,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4855982795928950}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Letter_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,7 +122,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4133818570601586}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Letter_A_Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -153,7 +155,7 @@ GameObject:
   - component: {fileID: 4652989691343230}
   - component: {fileID: 33913984684730792}
   - component: {fileID: 23692822031514048}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -197,6 +199,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -221,3 +224,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}

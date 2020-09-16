@@ -2,3 +2,4 @@ Works filter=lfs diff=lfs merge=lfs -text
 Works/ProjectBS/Library/PlayerDataCache/Win64/Data/sharedassets0.assets.resS filter=lfs diff=lfs merge=lfs -text
 Works/ProjectBS/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
 Works/ProjectBS/Library/PlayerDataCache/Win64/Data/level0 filter=lfs diff=lfs merge=lfs -text
+Works/ProjectBS/Library/Artifacts/b4/b48df313b113c0305e9068cb0fec8a46 filter=lfs diff=lfs merge=lfs -text

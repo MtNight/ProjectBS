@@ -192,19 +192,19 @@ QualitySettings:
     shadows: 2
     shadowResolution: 2
     shadowProjection: 1
-    shadowCascades: 4
-    shadowDistance: 150
-    shadowNearPlaneOffset: 3
-    shadowCascade2Split: 0.33333334
+    shadowCascades: 2
+    shadowDistance: 128
+    shadowNearPlaneOffset: 2
+    shadowCascade2Split: 0.69983083
     shadowCascade4Split: {x: 0.066666655, y: 0.19999999, z: 0.46666664}
     shadowmaskMode: 1
     skinWeights: 255
     textureQuality: 0
     anisotropicTextures: 2
-    antiAliasing: 2
+    antiAliasing: 8
     softParticles: 1
     softVegetation: 1
-    realtimeReflectionProbes: 1
+    realtimeReflectionProbes: 0
     billboardsFaceCameraPosition: 1
     vSyncCount: 1
     lodBias: 2

@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
+/*
+ - Read Mission & Object tables
+ */
+
 public class CSVReader
 {
 	static string SPLIT_RE = @",(?=(?:[^""]*""[^""]*"")*(?![^""]*""))";

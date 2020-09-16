@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ - Player's movement (WASD)
+ - Check EndPoint
+ */
+
 public class PlayerMove : MonoBehaviour {
 
     private Vector3 moveVec;
@@ -17,7 +22,7 @@ public class PlayerMove : MonoBehaviour {
     void Start()
     {
         moveVec = new Vector3(0, 0, 0);
-        moveSpeed = 6.0f;
+        moveSpeed = 10.0f;
 
         playerForward = Vector3.forward;
     }
@@ -70,10 +75,10 @@ public class PlayerMove : MonoBehaviour {
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Building")
-        {
-            Debug.Log("Col");
-        }
+        //if (collision.gameObject.tag == "Building")
+        //{
+        //    Debug.Log("Col");
+        //}
     }
 
     public void CompleteMission(Vector3 ep)

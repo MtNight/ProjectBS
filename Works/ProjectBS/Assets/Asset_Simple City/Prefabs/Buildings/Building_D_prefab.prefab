@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33545616392507590}
   - component: {fileID: 23338079925027170}
   - component: {fileID: 64865604194299092}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Building_D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -92,6 +93,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &64865604194299092
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -102,7 +104,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: f98ff50ea1b6a7140860381375972449, type: 3}
@@ -115,7 +117,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4984302113942590}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Building_D_prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
