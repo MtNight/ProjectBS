@@ -121,23 +121,26 @@ public class PhoneGallary : MonoBehaviour {
                 }
 
                 //Selected image setting
-                float rotationSetting = 0;
-                float scaleSettingX = 11;
-                float scaleSettingY = 11;
-                if (gallaryImages[selectNum].GetMode() == true) //Landscape Mode Setting
+                if (gallaryImages.Count > 0)
                 {
-                    rotationSetting = 90.0f;
-                    scaleSettingX *= 0.75f / 2;
-                    scaleSettingY *= 0.75f * 2;
-                }
-                Vector3 tmpRot = gallarySeleted.transform.localEulerAngles;
-                tmpRot.z = rotationSetting;
-                gallarySeleted.transform.localRotation = Quaternion.Euler(tmpRot);
+                    float rotationSetting = 0;
+                    float scaleSettingX = 11;
+                    float scaleSettingY = 11;
+                    if (gallaryImages[selectNum].GetMode() == true) //Landscape Mode Setting
+                    {
+                        rotationSetting = 90.0f;
+                        scaleSettingX *= 0.75f / 2;
+                        scaleSettingY *= 0.75f * 2;
+                    }
+                    Vector3 tmpRot = gallarySeleted.transform.localEulerAngles;
+                    tmpRot.z = rotationSetting;
+                    gallarySeleted.transform.localRotation = Quaternion.Euler(tmpRot);
 
-                Vector3 tmpScale = gallarySeleted.transform.localScale;
-                tmpScale.x = scaleSettingX;
-                tmpScale.y = scaleSettingY;
-                gallarySeleted.transform.localScale = tmpScale;
+                    Vector3 tmpScale = gallarySeleted.transform.localScale;
+                    tmpScale.x = scaleSettingX;
+                    tmpScale.y = scaleSettingY;
+                    gallarySeleted.transform.localScale = tmpScale;
+                }
 
                 //scrolling image
                 for (int i = 0; i < gallaryScrolls.Count; i++)
@@ -266,9 +269,17 @@ public class PhoneGallary : MonoBehaviour {
     //Set Seleted image
     void RefreshSelectedImage()
     {
-        if (selectNum >= gallaryImages.Count) { selectNum = gallaryImages.Count - 1; }
-        if (selectNum < 0) { selectNum = 0; }
-        Texture2D t = gallaryImages[selectNum].GetImage();
+        Texture2D t;
+        if (gallaryImages.Count == 0)
+        {
+            t = new Texture2D(128 / 2, 128, TextureFormat.RGB24, false);
+        }
+        else
+        {
+            if (selectNum < 0)                      { selectNum = 0; }
+            if (selectNum >= gallaryImages.Count)   { selectNum = gallaryImages.Count - 1; }
+            t = gallaryImages[selectNum].GetImage();
+        }
 
         Rect tmpRect = new Rect(0, 0, t.width, t.height);
         gallarySeleted.GetComponent<Image>().sprite = Sprite.Create(t, tmpRect, new Vector2(0.5f, 0.5f));
@@ -277,6 +288,8 @@ public class PhoneGallary : MonoBehaviour {
     //Set scroll image's location
     void RefreshScrollImage()
     {
+        if (gallaryImages.Count == 0) { return; }
+
         if (selectNum >= gallaryImages.Count) { selectNum = gallaryImages.Count - 1; }
         if (selectNum < 0) { selectNum = 0; }
         for (int i = 0; i < gallaryScrolls.Count; i++)
