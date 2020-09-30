@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Atlas_SFCity
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 38a598abad0b85e46b9cae203fb2f6b2, type: 3}
+    - {fileID: 2800000, guid: ffccefe6fe078884d91a8574bfef2cda, type: 3}
+    - {fileID: 2800000, guid: 10098b6ab07bb81478f96a9c740c4fec, type: 3}
+    - {fileID: 2800000, guid: f3b37575335bb3a4185571574378bb12, type: 3}
+    - {fileID: 2800000, guid: c9274606b3eb5de48993cb0031cfcce6, type: 3}
+    - {fileID: 2800000, guid: 03a7d169469c1af41bb03241a7b7e23d, type: 3}
+    - {fileID: 2800000, guid: c3512c25766a40245ac94c6b1722d76e, type: 3}
+    - {fileID: 2800000, guid: e0f922c44762291498cc62e0917609be, type: 3}
+    - {fileID: 2800000, guid: 3e787443af8f48b4b8ff188761e532d8, type: 3}
+    - {fileID: 2800000, guid: e014b5a9de227b9488927bed56bde484, type: 3}
+    - {fileID: 2800000, guid: 4dc22bc02a998ff44bd9d38be323c79a, type: 3}
+    - {fileID: 2800000, guid: db556d465e9f4ab4caffaf339cf5b656, type: 3}
+    - {fileID: 2800000, guid: d742a2401f2a9e049ae1dc254b5b1e44, type: 3}
+    - {fileID: 2800000, guid: 2d07da9c899c9a34b8366da40cd52fe7, type: 3}
+    - {fileID: 2800000, guid: acedbfe095bfb1f40aed35809dc98c80, type: 3}
+    - {fileID: 2800000, guid: a31e47ca27df7354caf099a92d2d91dd, type: 3}
+    - {fileID: 2800000, guid: 56b167498af7df7418554cd20ee49ccc, type: 3}
+    - {fileID: 2800000, guid: a3654b5dac9722f4e98cd85cb6be8985, type: 3}
+    - {fileID: 2800000, guid: 3332bf079dd6bd041a2f1c1ee3a8a514, type: 3}
+    - {fileID: 2800000, guid: 809f5c3cdc95b4148996371b3d8b12be, type: 3}
+    - {fileID: 2800000, guid: 0fc42d36094e3dd44b38c15cbd5b103d, type: 3}
+    - {fileID: 2800000, guid: 31124aa5f22e02c44a233e2cceb3a54f, type: 3}
+    - {fileID: 2800000, guid: 542585f629006f14793a3a1f769d92b8, type: 3}
+    - {fileID: 2800000, guid: d3cecd4fe2b92e541b7bbae5e8e3cab9, type: 3}
+    - {fileID: 2800000, guid: 4715f5d666576a94994d2d4d6944dcf7, type: 3}
+    - {fileID: 2800000, guid: 992acadd14dd79443a41c527b34e26e4, type: 3}
+    - {fileID: 2800000, guid: cc9e3b78dca024d42978c4c0ef15f2d8, type: 3}
+    - {fileID: 2800000, guid: ae70cdb902ab67c4398793aed2e478b1, type: 3}
+    - {fileID: 2800000, guid: 1a9745c73db9c5946b5409bdc324e106, type: 3}
+    - {fileID: 2800000, guid: 123012bf96cc36d4aacf4e012e84b8b9, type: 3}
+    - {fileID: 2800000, guid: b744fe2b2a20a164d964a898de0c4a9f, type: 3}
+    - {fileID: 2800000, guid: 59772e47594c5f542bbb3e5219051726, type: 3}
+    - {fileID: 2800000, guid: f3e9d87da10aa57418d43d0b9c85f881, type: 3}
+    - {fileID: 2800000, guid: f54f82d273b85b14ba398cde01e1266d, type: 3}
+    - {fileID: 2800000, guid: cc7a3b4f72afe68498ab30aa07f77ef0, type: 3}
+    - {fileID: 2800000, guid: 1c089cfa53f963a4ebbc0a512b6d8443, type: 3}
+    - {fileID: 2800000, guid: f31e15c1060870d4196e7875363cbb5d, type: 3}
+    - {fileID: 2800000, guid: 0ca4f5c02fb21944dad765efdebf6da7, type: 3}
+    - {fileID: 2800000, guid: 424a0c6a606875f458ef942536696cd1, type: 3}
+    - {fileID: 2800000, guid: 6a44ed97f7b057649bc6f755bbd74f25, type: 3}
+    - {fileID: 2800000, guid: e4e880e3bc167e648a881c750bac55bf, type: 3}
+    - {fileID: 2800000, guid: 3249a541db4d5034cb4c8c138cd11557, type: 3}
+    - {fileID: 2800000, guid: 52f98fc3797b66443b95229635266011, type: 3}
+    - {fileID: 2800000, guid: fff3796fd3630f64890b09296fcb8f85, type: 3}
+    - {fileID: 2800000, guid: cdf262485c3b82d47ae2547e4ef27caf, type: 3}
+    - {fileID: 2800000, guid: 6506ebfbf33dbd04e82b283f8c1925f6, type: 3}
+    - {fileID: 2800000, guid: 516a2a21b5e345f408e5be91be36ebb7, type: 3}
+    - {fileID: 2800000, guid: 32cbeb9527524264d95c3560939d58c4, type: 3}
+    - {fileID: 2800000, guid: c7a4569ca909e434e9f9ae16e15f07da, type: 3}
+    - {fileID: 2800000, guid: 67eac3f431dd7c44ebd631a7c015b608, type: 3}
+    totalSpriteSurfaceArea: 0
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites: []
+  m_PackedSpriteNamesToIndex: []
+  m_Tag: Atlas_SFCity
+  m_IsVariant: 0

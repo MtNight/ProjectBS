@@ -726,4 +726,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/hjk/projectBS/Game/Ver 0.5/ProjectBS.exe
+  playerPath: D:/hjk/projectBS/Build/ProjectBS.exe
