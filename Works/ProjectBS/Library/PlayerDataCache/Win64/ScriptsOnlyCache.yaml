@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - PhoneGallary
     - PlayerMove
     - ScreenShot
+    - test
     Unity.Postprocessing.Runtime.dll:
     - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
     - UnityEngine.Rendering.PostProcessing.AutoExposure
@@ -85,53 +86,55 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11864}
+      Script: {instanceID: 11874}
     - Class: 114
-      Script: {instanceID: 11868}
+      Script: {instanceID: 11878}
     - Class: 114
-      Script: {instanceID: 11892}
+      Script: {instanceID: 11902}
     - Class: 114
-      Script: {instanceID: 11912}
+      Script: {instanceID: 11922}
     - Class: 114
-      Script: {instanceID: 11974}
-    - Class: 114
-      Script: {instanceID: 12016}
+      Script: {instanceID: 11984}
     - Class: 114
       Script: {instanceID: 12026}
     - Class: 114
-      Script: {instanceID: 12094}
+      Script: {instanceID: 12036}
     - Class: 114
-      Script: {instanceID: 12156}
+      Script: {instanceID: 12104}
     - Class: 114
-      Script: {instanceID: 12278}
+      Script: {instanceID: 12166}
     - Class: 114
-      Script: {instanceID: 12612}
+      Script: {instanceID: 12288}
     - Class: 114
-      Script: {instanceID: 12954}
+      Script: {instanceID: 12622}
     - Class: 114
-      Script: {instanceID: 13004}
+      Script: {instanceID: 12964}
     - Class: 114
-      Script: {instanceID: 13068}
+      Script: {instanceID: 13014}
     - Class: 114
-      Script: {instanceID: 13138}
+      Script: {instanceID: 13078}
     - Class: 114
-      Script: {instanceID: 13468}
+      Script: {instanceID: 13148}
     - Class: 114
-      Script: {instanceID: 13684}
+      Script: {instanceID: 13480}
+    - Class: 114
+      Script: {instanceID: 13492}
     - Class: 114
       Script: {instanceID: 13698}
     - Class: 114
-      Script: {instanceID: 13720}
+      Script: {instanceID: 13712}
     - Class: 114
-      Script: {instanceID: 13968}
+      Script: {instanceID: 13734}
     - Class: 114
-      Script: {instanceID: 13972}
+      Script: {instanceID: 13982}
     - Class: 114
-      Script: {instanceID: 14010}
+      Script: {instanceID: 13986}
     - Class: 114
-      Script: {instanceID: 14096}
+      Script: {instanceID: 14024}
     - Class: 114
-      Script: {instanceID: 14118}
+      Script: {instanceID: 14110}
+    - Class: 114
+      Script: {instanceID: 14132}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -555,6 +558,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MissionRead
+  - hash:
+      serializedVersion: 2
+      Hash: b7d1fe22e0a536f000a7c1f056110e7a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: test
   - hash:
       serializedVersion: 2
       Hash: 760787567e1b60d64a3e421ab83ee14a

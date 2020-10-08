@@ -4,7 +4,7 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-  m_CurrentQuality: 0
+  m_CurrentQuality: 2
   m_QualitySettings:
   - serializedVersion: 2
     name: Very Low
@@ -82,16 +82,16 @@ QualitySettings:
     name: Ultra
     pixelLightCount: 4
     shadows: 2
-    shadowResolution: 2
+    shadowResolution: 3
     shadowProjection: 1
-    shadowCascades: 2
+    shadowCascades: 4
     shadowDistance: 256
     shadowNearPlaneOffset: 2
     shadowCascade2Split: 0.69983083
-    shadowCascade4Split: {x: 0.066666655, y: 0.19999999, z: 0.46666664}
+    shadowCascade4Split: {x: 0.39954662, y: 0.6996584, z: 0.89961463}
     shadowmaskMode: 1
     skinWeights: 255
-    textureQuality: 3
+    textureQuality: 0
     anisotropicTextures: 1
     antiAliasing: 8
     softParticles: 1
@@ -120,7 +120,7 @@ QualitySettings:
     Nintendo Switch: 2
     PS4: 2
     Stadia: 2
-    Standalone: 0
+    Standalone: 2
     WebGL: 1
     Windows Store Apps: 2
     XboxOne: 2

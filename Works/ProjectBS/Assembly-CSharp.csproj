@@ -59,6 +59,8 @@
     <Compile Include="Assets\Scripts\CameraMove.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\ScreenShot.cs" />
+    <Compile Include="Assets\Scripts\test.cs" />
+    <Compile Include="Assets\Scripts\test2.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Asset_SF City\Shaders\Polygon_Triplanar.shader" />
