@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ - Player's head movement & camera movement.
+ - Phone Mode Change ZoomIn-Out.
+ */
+
 public class CameraMove : MonoBehaviour {
 
     private float xSensitivity;
@@ -27,7 +32,7 @@ public class CameraMove : MonoBehaviour {
     
     void Update()
     {
-
+        //Change Phone Mod
         int changeSpeed = 5;
         if (phone.GetComponent<PhoneGallary>().isLandscapeMode == true)    //right button
         {
@@ -46,6 +51,7 @@ public class CameraMove : MonoBehaviour {
             mainCamera.transform.localPosition = tmpPos;
         }
 
+        //Camera(player's head) Movement
         float yRot = Input.GetAxis("Mouse X") * xSensitivity * Time.deltaTime;
         float xRot = Input.GetAxis("Mouse Y") * ySensitivity * Time.deltaTime;
         if (Mathf.Abs(yRot) > 30)
@@ -65,7 +71,7 @@ public class CameraMove : MonoBehaviour {
         bool isOverUpLimit = ((int) tmpAngle.eulerAngles.x / 90 == 3 && tmpAngle.eulerAngles.x < 290);
         if (!isOverUpLimit && !isOverDownLimit)
         {
-            sightHeight.transform.localRotation *= Quaternion.Euler(-xRot, 0, 0);//부호 주의
+            sightHeight.transform.localRotation *= Quaternion.Euler(-xRot, 0, 0);
         }
     }
 }

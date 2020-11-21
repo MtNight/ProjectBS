@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using System;
 
+/*
+ - Select Mission &
+ */
+
+//Mission Class
 public class Missions
 {
     int index;
@@ -59,6 +64,7 @@ public class Missions
     }
 }
 
+//Mission Object Class
 public class MissionObject
 {
     int index;
@@ -93,8 +99,8 @@ public class MissionObject
         Debug.Log(prefabName);
 
         int objectIdx = 0;
-        string[] tmpNames = new string[10];
-        GameObject[] tmpObjects = new GameObject[10];
+        string[] tmpNames = new string[100];
+        GameObject[] tmpObjects = new GameObject[100];
         GameObject prefab = GameObject.Find(prefabName);
         while (prefab != null)
         {
@@ -138,10 +144,12 @@ public class MissionRead : MonoBehaviour {
         List<Dictionary<string, string>> missionData = CSVReader.Read("TBL_MISSION");
         List<Dictionary<string, string>> objectData = CSVReader.Read("TBL_OBJECT");
         
+        //Select Mission
         //indexOfMission = UnityEngine.Random.Range(0, missionData.Count - 1);
         indexOfMission = 1;
         mission = new Missions(missionData[indexOfMission]);
 
+        //Find MissionObject & Initiallize
         int cnt1 = mission.GetObject1DCount();
         missionObjects = new MissionObject[cnt1][];
         for (int i = 0; i < cnt1; i++)
