@@ -7,6 +7,8 @@ public class PeopleSpawner : MonoBehaviour
     public GameObject peoplePrefab;
     public GameObject WayPointManager;
     public int spawnCount = 20;
+    public bool isSpawnedCompletely = false;
+
     public GameObject[] peoplePrefabs;
     float[] peopleSpawnRate =
         { 10.0f, 10.0f, 10.0f,
@@ -26,6 +28,7 @@ public class PeopleSpawner : MonoBehaviour
           0.1f, 0.1f, 0.1f,
         };
     float rateSum = 0;
+
 
     void Start()
     {
@@ -75,6 +78,8 @@ public class PeopleSpawner : MonoBehaviour
             }
             else
             {
+                isSpawnedCompletely = true;
+                Debug.Log("spawn end");
                 yield break;
             }
         }

@@ -61,7 +61,7 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: c72c97e952bf7834b85e6164373d310d, type: 3}
   m_Controller: {fileID: 9100000, guid: 1de385df2ff713a41adfcbbb63b8af91, type: 2}
-  m_CullingMode: 1
+  m_CullingMode: 2
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
@@ -116,6 +116,7 @@ MonoBehaviour:
   moveSpeed: 5
   angleSpeed: 15
   moveVec: {x: 0, y: 0, z: 0}
+  isInCross: 0
 --- !u!114 &1917567692
 MonoBehaviour:
   m_ObjectHideFlags: 0
