@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\CameraMove.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\ScreenShot.cs" />
+    <Compile Include="Assets\Scripts\MissionNavigate.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Asset_Simple People\Changelog.txt" />

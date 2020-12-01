@@ -19,6 +19,6 @@ public class Tree : MonoBehaviour
 
         int r = Random.Range(0, 4);
         Vector3 rot = new Vector3(0, r * 90, 0);
-        Trees[idx].transform.rotation = Quaternion.Euler(rot);
+        Trees[idx].transform.localRotation = Quaternion.Euler(rot);
     }
 }

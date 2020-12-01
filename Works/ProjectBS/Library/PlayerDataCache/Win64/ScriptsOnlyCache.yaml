@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CameraMove
     - MeshCreator
+    - MissionNavigate
     - MissionRead
     - MissionUI
     - PeopleMove
@@ -133,35 +134,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13022}
     - Class: 114
-      Script: {instanceID: 13086}
+      Script: {instanceID: 13062}
     - Class: 114
-      Script: {instanceID: 13156}
+      Script: {instanceID: 13088}
     - Class: 114
-      Script: {instanceID: 13202}
+      Script: {instanceID: 13158}
     - Class: 114
-      Script: {instanceID: 13390}
+      Script: {instanceID: 13204}
     - Class: 114
-      Script: {instanceID: 13492}
+      Script: {instanceID: 13392}
     - Class: 114
-      Script: {instanceID: 13504}
+      Script: {instanceID: 13494}
     - Class: 114
-      Script: {instanceID: 13534}
+      Script: {instanceID: 13506}
     - Class: 114
-      Script: {instanceID: 13712}
+      Script: {instanceID: 13536}
     - Class: 114
-      Script: {instanceID: 13726}
+      Script: {instanceID: 13714}
     - Class: 114
-      Script: {instanceID: 13748}
+      Script: {instanceID: 13728}
     - Class: 114
-      Script: {instanceID: 13996}
+      Script: {instanceID: 13750}
     - Class: 114
-      Script: {instanceID: 14000}
+      Script: {instanceID: 13998}
     - Class: 114
-      Script: {instanceID: 14038}
+      Script: {instanceID: 14002}
     - Class: 114
-      Script: {instanceID: 14124}
+      Script: {instanceID: 14040}
     - Class: 114
-      Script: {instanceID: 14146}
+      Script: {instanceID: 14126}
+    - Class: 114
+      Script: {instanceID: 14148}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -511,7 +514,13 @@ ScriptsOnlyBuild:
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
-      Hash: 3fa60ac2d0c9f16ee2992a76938775c6
+      Hash: bfc0100adaa6790778c53bbe3eac2e15
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MissionNavigate
+  - hash:
+      serializedVersion: 2
+      Hash: 0626cc5d6f6116c10b375293c582b8be
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MissionUI
@@ -541,7 +550,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: 2cd6f7b700a7befc0c767c9ecf3ac217
+      Hash: 9d0fed950f545e498569877b677e3a84
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PeopleSpawner
@@ -655,7 +664,7 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: 474ed172e7f01598f6b97343237e3b1a
+      Hash: 74f6e45df200167249fb78220536c008
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerMove
@@ -794,4 +803,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: G:/hjk/projectBS/Build_201124/ProjectBS.exe
+  playerPath: G:/hjk/projectBS/Build_201128/ProjectBS.exe

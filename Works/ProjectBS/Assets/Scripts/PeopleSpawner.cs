@@ -29,6 +29,15 @@ public class PeopleSpawner : MonoBehaviour
         };
     float rateSum = 0;
 
+    void Awake()
+
+    {
+        //for test
+        QualitySettings.vSyncCount = 0;
+
+        Application.targetFrameRate = 30;
+
+    }
 
     void Start()
     {

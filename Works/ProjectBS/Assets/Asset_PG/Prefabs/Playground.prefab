@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 23227241081868118}
   - component: {fileID: 64312301713219166}
   m_Layer: 11
-  m_Name: Stairs 3
+  m_Name: Playground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 23318889023240424}
   - component: {fileID: 64046967364721864}
   m_Layer: 11
-  m_Name: Stairs 2 (1)
+  m_Name: Playground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -279,7 +279,7 @@ GameObject:
   - component: {fileID: 23445472432849556}
   - component: {fileID: 64762891768677962}
   m_Layer: 11
-  m_Name: Stilt Very High
+  m_Name: Playground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -375,7 +375,7 @@ GameObject:
   - component: {fileID: 23667018500738088}
   - component: {fileID: 64112239542433238}
   m_Layer: 11
-  m_Name: Stilt High (2)
+  m_Name: Playground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -471,7 +471,7 @@ GameObject:
   - component: {fileID: 23340665308416388}
   - component: {fileID: 64564609256790376}
   m_Layer: 11
-  m_Name: Stairs 3 (1)
+  m_Name: Playground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -569,7 +569,7 @@ GameObject:
   - component: {fileID: 23099576154082098}
   - component: {fileID: 64745481148598312}
   m_Layer: 11
-  m_Name: Stairs 1 (1)
+  m_Name: Playground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -667,7 +667,7 @@ GameObject:
   - component: {fileID: 23567509684835024}
   - component: {fileID: 64635613265605782}
   m_Layer: 11
-  m_Name: Platform Corner Walls
+  m_Name: Playground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -765,7 +765,7 @@ GameObject:
   - component: {fileID: 23901467945748822}
   - component: {fileID: 64943159118398992}
   m_Layer: 11
-  m_Name: Small Platform (2)
+  m_Name: Playground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -862,7 +862,7 @@ GameObject:
   - component: {fileID: 23491269355323200}
   - component: {fileID: 64142317164663676}
   m_Layer: 11
-  m_Name: Stairs 2
+  m_Name: Playground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -999,7 +999,7 @@ GameObject:
   - component: {fileID: 23006744284138750}
   - component: {fileID: 64416379742705940}
   m_Layer: 11
-  m_Name: Stilt High (1)
+  m_Name: Playground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1162,7 +1162,7 @@ GameObject:
   - component: {fileID: 23127505177985354}
   - component: {fileID: 64183171354241382}
   m_Layer: 11
-  m_Name: Platform 1 Wall
+  m_Name: Playground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1260,7 +1260,7 @@ GameObject:
   - component: {fileID: 23447038635081018}
   - component: {fileID: 64670107076385850}
   m_Layer: 11
-  m_Name: Tower Piece
+  m_Name: Playground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1358,7 +1358,7 @@ GameObject:
   - component: {fileID: 23383851137625142}
   - component: {fileID: 64123614652111922}
   m_Layer: 11
-  m_Name: Platform 2 Walls (1)
+  m_Name: Playground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1456,7 +1456,7 @@ GameObject:
   - component: {fileID: 23064068356438448}
   - component: {fileID: 64795014101341746}
   m_Layer: 11
-  m_Name: Stairs 1
+  m_Name: Playground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1554,7 +1554,7 @@ GameObject:
   - component: {fileID: 23590664843685994}
   - component: {fileID: 64846994817541648}
   m_Layer: 11
-  m_Name: Platform 2 Walls
+  m_Name: Playground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1652,7 +1652,7 @@ GameObject:
   - component: {fileID: 23065996503154724}
   - component: {fileID: 64475847633901344}
   m_Layer: 11
-  m_Name: Very High Platform
+  m_Name: Playground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1749,7 +1749,7 @@ GameObject:
   - component: {fileID: 23321038682854486}
   - component: {fileID: 64968582574880574}
   m_Layer: 11
-  m_Name: Medium Platform
+  m_Name: Playground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1846,7 +1846,7 @@ GameObject:
   - component: {fileID: 23651751696116678}
   - component: {fileID: 64119383407117322}
   m_Layer: 11
-  m_Name: Platform Poles (1)
+  m_Name: Playground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1943,7 +1943,7 @@ GameObject:
   - component: {fileID: 23488381170439652}
   - component: {fileID: 64677512739194838}
   m_Layer: 11
-  m_Name: Medium Platform (1)
+  m_Name: Playground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2040,7 +2040,7 @@ GameObject:
   - component: {fileID: 23734717973237520}
   - component: {fileID: 64239726067942404}
   m_Layer: 11
-  m_Name: Stilt Very High (1)
+  m_Name: Playground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2136,7 +2136,7 @@ GameObject:
   - component: {fileID: 23052355606346850}
   - component: {fileID: 64456336518126316}
   m_Layer: 11
-  m_Name: Small Platform (1)
+  m_Name: Playground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2233,7 +2233,7 @@ GameObject:
   - component: {fileID: 23511574193583114}
   - component: {fileID: 64911193123795114}
   m_Layer: 11
-  m_Name: Tube Slide
+  m_Name: Playground_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

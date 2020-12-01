@@ -12,13 +12,13 @@ public class MissionUI : MonoBehaviour {
 
     public GameObject Player;
     public GameObject MissionManager;
+    public Missions mission;
     public MissionObject[][] mObjects;
+    public GameObject Navi;
 
     //mission check
     GameObject[] uiTexts = new GameObject[10];
     string[] missionObjectName = new string[10];
-    bool[] isClearMission = new bool[10];
-    Vector3 EndPoint;   //it will be changed...
     
     //count for check clear mission
     int missionCnt = 0;
@@ -34,8 +34,6 @@ public class MissionUI : MonoBehaviour {
         MissionManager = transform.parent.parent.gameObject;
         UIXposition = GetComponent<RectTransform>().localPosition.x;
         SetMission();
-
-        EndPoint = new Vector3(7, 3, 755);
     }
 
     private void Update()
@@ -81,13 +79,13 @@ public class MissionUI : MonoBehaviour {
     //initialize mission's information
     public void SetMission()
     {
+        mission = MissionManager.GetComponent<MissionRead>().mission;
         mObjects = MissionManager.GetComponent<MissionRead>().missionObjects;
         for (int i = 0; i < mObjects.Length; i++)
         {
             missionObjectName[i] = mObjects[i][0].GetName();
             uiTexts[i] = transform.GetChild(i + 1).gameObject;
             uiTexts[i].GetComponent<Text>().text = "Take a picture with a " + missionObjectName[i];
-            isClearMission[i] = false;
         }
         uiTexts[mObjects.Length] = transform.GetChild(mObjects.Length + 1).gameObject;
     }
@@ -95,9 +93,10 @@ public class MissionUI : MonoBehaviour {
     //clear mission by 'ScreenShot' script OR cancel?
     public void ClearObjective(int objNum, bool stat)
     {
-        if (isClearMission[objNum] != stat)
+        if (mission.GetClearCheck(objNum) != stat)
         {
-            isClearMission[objNum] = stat;
+            mission.SetClearOrNot(objNum, stat);
+            Navi.GetComponent<MissionNavigate>().UpdateTarget();
         }
         else { return; }
 
@@ -127,7 +126,8 @@ public class MissionUI : MonoBehaviour {
     void ClearMisson()
     {
         uiTexts[mObjects.Length].SetActive(true);
-        Player.GetComponent<PlayerMove>().CompleteMission(EndPoint);
+        Player.GetComponent<PlayerMove>().CompleteMission(mission.GetEndPosition());
+        Navi.GetComponent<MissionNavigate>().UpdateTarget();
     }
 
     //Arrive At endPoint by 'PlayerMove' script

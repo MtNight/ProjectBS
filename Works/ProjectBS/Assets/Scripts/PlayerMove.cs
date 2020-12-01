@@ -17,7 +17,7 @@ public class PlayerMove : MonoBehaviour {
 
     public GameObject MissionPanel;
     Vector3 endPoint;
-    bool isCompleteMision=false;
+    public bool isCompleteMision=false;
     public int startPoint = 0;
 
     private void Awake()
@@ -32,13 +32,7 @@ public class PlayerMove : MonoBehaviour {
 
         playerForward = Vector3.forward;
 
-        switch (startPoint)
-        {
-            case 1: transform.position = new Vector3(40,3,240); break;
-            case 2: transform.position = new Vector3(75,3,630); break;
-            case 3: transform.position = new Vector3(285,3,620); break;
-            case 4: transform.position = new Vector3(270, 3, 200); break;
-        }
+        transform.position = MissionPanel.GetComponent<MissionUI>().mission.GetStartPosition();
     }
 
     private void FixedUpdate()
