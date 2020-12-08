@@ -6,7 +6,7 @@ public class MeshCreator : MonoBehaviour
 {
     public Transform[] pos;
     //public Mesh ex;
-    public Vector2[] uv;
+    Vector2[] uv;
     Mesh mesh;
 
     // Use this for initialization
@@ -36,13 +36,27 @@ public class MeshCreator : MonoBehaviour
 
         mesh.vertices = ver;
 
-        uv[0] = new Vector2(0.1f, 1);
-        uv[1] = new Vector2(0.1f, 0);
-        uv[2] = new Vector2(-0.9f, 0);
-        uv[3] = new Vector2(0.1f, 0.55f);
+        //uv[0] = new Vector2(0.1f, 1);
+        //uv[1] = new Vector2(0.1f, 0);
+        //uv[2] = new Vector2(-0.9f, 0);
+        //uv[3] = new Vector2(0.1f, 0.55f);
         mesh.uv = uv;
 
-        mesh.triangles = new int[] { 0, 1, 2, 2, 3, 0, 0, 4, 5, 5, 1, 0, 1, 5, 6, 6, 2, 1, 2, 6, 7, 7, 3, 2, 3, 7, 4, 4, 0, 3 };
+        mesh.triangles = new int[] 
+        {
+            0, 1, 2,
+            2, 3, 0,
+            0, 4, 5,
+            5, 1, 0,
+            1, 5, 6,
+            6, 2, 1,
+            2, 6, 7,
+            7, 3, 2,
+            3, 7, 4,
+            4, 0, 3,
+            6, 5, 4,
+            4, 7, 6
+        };
         mesh.RecalculateNormals();
         meshFilter.mesh = mesh;
     }

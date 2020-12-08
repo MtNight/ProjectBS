@@ -56,6 +56,7 @@
     <Compile Include="Assets\Scripts\CSVReader.cs" />
     <Compile Include="Assets\Scripts\Tree.cs" />
     <Compile Include="Assets\Scripts\WayPoint.cs" />
+    <Compile Include="Assets\Scripts\MissionNavigate.cs" />
     <Compile Include="Assets\Scripts\MissionUI.cs" />
     <Compile Include="Assets\Scripts\PeopleSpawner.cs" />
     <Compile Include="Assets\Scripts\PeopleMove.cs" />
@@ -65,10 +66,15 @@
     <Compile Include="Assets\Scripts\CameraMove.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\ScreenShot.cs" />
-    <Compile Include="Assets\Scripts\MissionNavigate.cs" />
+    <Compile Include="Assets\Scripts\VehiclesMove.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\Asset_Quest Markers\Read Me.txt" />
      <None Include="Assets\Asset_Simple People\Changelog.txt" />
+     <None Include="Assets\Asset_Quest Markers\Shaders\Gradient.shader" />
+     <None Include="Assets\Asset_Quest Markers\Shaders\GradientNoLight.shader" />
+     <None Include="Assets\Asset_Quest Markers\Shaders\GradientRimlightNoLight.shader" />
+     <None Include="Assets\Asset_Quest Markers\Shaders\GradientRimlight.shader" />
      <None Include="Assets\Asset_Polygon City\Change_Log.txt" />
     <Reference Include="UnityEngine">
       <HintPath>G:\hjk\Unity\2020.1.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

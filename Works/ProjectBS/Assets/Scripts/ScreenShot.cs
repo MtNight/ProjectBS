@@ -88,7 +88,7 @@ public class ScreenShot : MonoBehaviour
                 Ray = cam.GetComponent<Camera>().ScreenPointToRay(new Vector3(w / 20.0f + x * w / 10.0f, h / 20.0f + y * h / 10.0f, 0));    //shoot ray
 
                 //ray meets mission object
-                if (Physics.Raycast(Ray, out hit, 64, capturable) && hit.transform.tag == "Capturable")
+                if (Physics.Raycast(Ray, out hit, 128) && hit.transform.tag == "Capturable")
                 {
                     cnt++;
                     if (cnt >= threshold)   //get credit for capture mission object
@@ -96,17 +96,20 @@ public class ScreenShot : MonoBehaviour
                         MissionObject[][] mObjects = MissionPanel.GetComponent<MissionUI>().mObjects;   //mission obejct list
                         for (int i = 0; i < mObjects.Length; i++)
                         {
-                            Debug.Log(hit.transform.name + ", " + mObjects[i][0].GetPrefabName());
-                            bool isMissionObject1 = hit.transform.name.Equals(mObjects[i][0].GetPrefabName());
-                            bool isMissionObject2 = hit.transform.name.Equals(mObjects[i][0].GetPrefabName() + "_1");   //다른객체-같은인식번호 -> 나중에 확인해보고 필요 없다면 지울 수 있음.
-                            //find captured mission object's tuple
-                            if (isMissionObject1 || isMissionObject2)
+                            for (int j = 0; j < mObjects[i].Length; j++)
                             {
-                                //check mission clear
-                                MissionPanel.GetComponent<MissionUI>().ClearObjective(i, true);
-                                isClearObjective = true;
-                                numberOfObjective = i;
-                                break;
+                                Debug.Log(hit.transform.name + ", " + mObjects[i][j].GetPrefabName());
+                                bool isMissionObject1 = hit.transform.name.Equals(mObjects[i][j].GetPrefabName());
+                                bool isMissionObject2 = hit.transform.name.Equals(mObjects[i][j].GetPrefabName() + "_1");   //자식오브젝트
+                                                                                                                            //find captured mission object's tuple
+                                if (isMissionObject1 || isMissionObject2)
+                                {
+                                    //check mission clear
+                                    MissionPanel.GetComponent<MissionUI>().ClearObjective(i, true);
+                                    isClearObjective = true;
+                                    numberOfObjective = i;
+                                    break;
+                                }
                             }
                         }
                     }

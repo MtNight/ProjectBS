@@ -162,7 +162,7 @@ public class MissionObject
                 break;
             }
         }
-        if (tuple == null) { Debug.Log("오브젝트를 찾을 수 없습니다."); return; }
+        if (tuple == null) { Debug.Log("오브젝트 테이블에서 미션 오브젝트를 찾을 수 없습니다."); return; }
 
         index = Convert.ToInt32(tuple["index"]);
         objectType = Convert.ToInt32(tuple["object_type"]);
@@ -202,10 +202,14 @@ public class MissionObject
             tmpObjects[i].name = tmpNames[i];
         }
 
-        shortestDistance = tmpObjects[minIdx].transform.position;
+        if (objectIdx > 0)
+        {
+            shortestDistance = tmpObjects[minIdx].transform.position;
+        }
 
         if (objectIdx == 0)
         {
+            shortestDistance = Vector3.zero;
             Debug.Log("[" + prefabName + "]오브젝트를 찾을 수 없습니다.");
         }
     }
@@ -237,7 +241,7 @@ public class MissionObject
 public class MissionRead : MonoBehaviour {
 
 	public int _id = 0;
-    private int indexOfMission = 1; //test
+    public int indexOfMission = 1; //test
     public Missions mission;
     public MissionObject[][] missionObjects;
 
@@ -248,7 +252,6 @@ public class MissionRead : MonoBehaviour {
         
         //Select Mission
         //indexOfMission = UnityEngine.Random.Range(0, missionData.Count - 1);
-        indexOfMission = 1;
         mission = new Missions(missionData[indexOfMission]);
 
         //Find MissionObject & Initiallize
@@ -258,9 +261,12 @@ public class MissionRead : MonoBehaviour {
         {
             int cnt2 = mission.GetDuplicateObjectsCount(i);
             missionObjects[i] = new MissionObject[cnt2];
+
+            Vector3 playerPos = mission.GetStartPosition();
+            if (i != 0) { playerPos = missionObjects[i - 1][0].GetSD(); }
             for (int j = 0; j < cnt2; j++)
             {
-                missionObjects[i][j] = new MissionObject(objectData, mission.GetObjectIndex(i, j), mission.GetStartPosition());
+                missionObjects[i][j] = new MissionObject(objectData, mission.GetObjectIndex(i, j), playerPos);
             }
         }
 
