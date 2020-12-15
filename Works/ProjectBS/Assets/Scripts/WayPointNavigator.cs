@@ -7,6 +7,7 @@ public class WayPointNavigator : MonoBehaviour
 
     PeopleMove moveScript;
     public WayPoint currentWayPoint;
+    public bool wasCross = false;
     int dir;
     bool isBranched = false;
 
@@ -80,10 +81,10 @@ public class WayPointNavigator : MonoBehaviour
                 {
                     PrevDestination();
                 }
-                CheckCross();
                 isBranched = false;
             }
 
+            CheckCross();
             ResetDestination();
         }
     }
@@ -123,13 +124,19 @@ public class WayPointNavigator : MonoBehaviour
     }
     void CheckCross()
     {
-        if(currentWayPoint.isCrossStart)
+        bool inCrossTmp = false;
+        if (currentWayPoint.isCross)
         {
-            moveScript.isInCross = true;
+            if (wasCross == true)
+            {
+                inCrossTmp = true;
+            }
+            wasCross = true;
         }
-        else if (currentWayPoint.isCrossEnd)
+        else
         {
-            moveScript.isInCross = false;
+            wasCross = false;
         }
+        moveScript.isInCross = inCrossTmp;
     }
 }

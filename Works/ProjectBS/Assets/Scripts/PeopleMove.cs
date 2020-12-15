@@ -13,8 +13,10 @@ public class PeopleMove : MonoBehaviour
     Vector3 prevVec;
     bool isIdle = false;
     public bool isInCross = false;
+    bool checkedCross = false;
 
     WayPointNavigator wayPointNavi;
+    public GameObject trafficSystem;
     float cool = 0;
 
     void Start()
@@ -28,14 +30,18 @@ public class PeopleMove : MonoBehaviour
     
     void Update()
     {
+        CheckInCross();
+
         if (isIdle)
         {
             transform.forward = prevVec;
         }
         else
         {
+            //set forward
             MovePeople();
 
+            //direction reposition or straight move
             if (Vector3.Dot(moveVec, prevVec) * Mathf.Rad2Deg >= 90)
             {
                 wayPointNavi.NextDestination();
@@ -45,7 +51,7 @@ public class PeopleMove : MonoBehaviour
                 GetComponent<Rigidbody>().AddForce(transform.forward * moveSpeed, ForceMode.Impulse);
             }
 
-
+            //stop reposition
             if (Vector3.Magnitude(prevPos - transform.position) < 0.001f && cool <= 0)
             {
                 wayPointNavi.ResetDestination();
@@ -111,7 +117,7 @@ public class PeopleMove : MonoBehaviour
             float directionChangePercent = 0.1f;
             if (Random.Range(0.0f, 1.0f) < modeChangePercent)
             {
-                StartCoroutine(StopMove());
+                StartCoroutine(StopOrResumeMoving());
             }
 
             if (Random.Range(0.0f, 1.0f) < directionChangePercent)
@@ -120,28 +126,59 @@ public class PeopleMove : MonoBehaviour
             }
         }
     }
-    IEnumerator StopMove()
+    IEnumerator StopOrResumeMoving()
     {
         while (true)
         {
             yield return new WaitForSeconds(Random.Range(0.0f, 10.0f));
-
             if (!isInCross)
             {
-                isIdle = !isIdle;
-                if (isIdle)
-                {
-                    GetComponent<Animator>().SetFloat("Speed_f", 0.2f);
-                    GetComponent<Animator>().SetInteger("Animation_int", Random.Range(0, 3));
-                }
-                else
-                {
-                    GetComponent<Animator>().SetFloat("Speed_f", 0.3f);
-                    GetComponent<Animator>().SetInteger("Animation_int", 0);
-                }
-
+                StopOrResumeMove(!isIdle);
             }
             yield break;
+        }
+    }
+    void StopOrResumeMove(bool stop)
+    {
+        if (isIdle != stop)
+        {
+            if (stop)
+            {
+                GetComponent<Animator>().SetFloat("Speed_f", 0.2f);
+                GetComponent<Animator>().SetInteger("Animation_int", Random.Range(0, 3));
+            }
+            else
+            {
+                GetComponent<Animator>().SetFloat("Speed_f", 0.3f);
+                GetComponent<Animator>().SetInteger("Animation_int", 0);
+            }
+        }
+        isIdle = stop;
+    }
+    public void CheckInCross()
+    {
+        if (isInCross)
+        {
+            if (checkedCross == false)
+            {
+                bool checkCross = false;
+                if (trafficSystem.GetComponent<TrafficSystem>().cross == true)
+                {
+                    bool ns = (wayPointNavi.currentWayPoint.isNSDirection == true && trafficSystem.GetComponent<TrafficSystem>().NSLight != 0);
+                    bool ew = (wayPointNavi.currentWayPoint.isEWDirection == true && trafficSystem.GetComponent<TrafficSystem>().EWLight != 0);
+                    if (ns || ew)
+                    {
+                        checkCross = true;
+                    }
+                }
+                StopOrResumeMove(!checkCross);
+                checkedCross = checkCross;
+            }
+        }
+        else
+        {
+            checkedCross = false;
+            StopOrResumeMove(false);
         }
     }
 }

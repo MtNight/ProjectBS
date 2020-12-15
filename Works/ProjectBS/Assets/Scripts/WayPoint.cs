@@ -9,8 +9,9 @@ public class WayPoint : MonoBehaviour
 
     [Range(0f, 30f)]
     public float width = 1;
-    public bool isCrossStart = false;   //브랜치 된 후 시작점
-    public bool isCrossEnd = false;     //브랜치 하는 끝점
+    public bool isCross = false;
+    public bool isNSDirection = false;
+    public bool isEWDirection = false;
     public bool shouldForward = false;
     public bool shouldReverse = false;
 

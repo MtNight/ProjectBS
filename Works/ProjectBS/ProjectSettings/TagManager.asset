@@ -9,6 +9,7 @@ TagManager:
   - in-Display
   - Capturable
   - People
+  - Crosswalk
   layers:
   - Default
   - TransparentFX
@@ -28,7 +29,7 @@ TagManager:
   - People
   - Background
   - PlayerWall
-  - 
+  - Vehicles
   - 
   - 
   - 
