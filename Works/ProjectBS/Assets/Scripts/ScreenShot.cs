@@ -23,6 +23,8 @@ public class ScreenShot : MonoBehaviour
     public LayerMask capturable;
     public GameObject MissionPanel;
 
+    public bool isStartGame = false;
+
     void Start()
     {
         phone = transform.parent.GetChild(1).gameObject;
@@ -37,7 +39,7 @@ public class ScreenShot : MonoBehaviour
         //ScreenShot Key Input
         if (Input.GetKeyDown(KeyCode.G) || Input.GetMouseButtonDown(0)) //left button
         {
-            if (!phone.GetComponent<PhoneGallary>().isGallary)
+            if (!phone.GetComponent<PhoneGallary>().isGallary && isStartGame)
             {
                 ClickScreenShot();
             }

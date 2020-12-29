@@ -7,6 +7,7 @@ public class PeopleSpawner : MonoBehaviour
     public GameObject peoplePrefab;
     public GameObject WayPointManager;
     public GameObject VehicleManager;
+    public GameObject player;
     public int spawnCount = 20;
     public bool isSpawnedCompletely = false;
 
@@ -81,6 +82,7 @@ public class PeopleSpawner : MonoBehaviour
                 Transform position = WayPointManager.transform.GetChild(Random.Range(0, WayPointManager.transform.childCount - 1));
                 people.GetComponent<WayPointNavigator>().currentWayPoint = position.GetComponent<WayPoint>();
                 people.GetComponent<PeopleMove>().trafficSystem = VehicleManager;
+                people.GetComponent<PeopleMove>().player = player;
                 people.transform.position = position.position;
                 people.transform.SetParent(this.transform);
 

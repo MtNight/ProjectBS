@@ -51,7 +51,7 @@ public class MissionNavigate : MonoBehaviour
                 naviDir = targetPos - player.transform.position;
                 naviDir.y = 0;
                 naviDir.Normalize();
-                transform.forward = Vector3.Lerp(transform.forward, naviDir, naviSpeed);
+                transform.forward = Vector3.Slerp(transform.forward, naviDir, naviSpeed);
             }
             naviSign.SetActive(naviActive);
             nearSign.SetActive(!naviActive);

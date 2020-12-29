@@ -54,6 +54,9 @@ public class PhoneGallary : MonoBehaviour {
     private bool isCheckDeletion;
     public bool isLandscapeMode;
 
+    public KeyCode GallaryKey;
+    public KeyCode DeleteKey;
+
     void Start ()
     {
         camCanvas = transform.GetChild(2).gameObject;
@@ -71,7 +74,7 @@ public class PhoneGallary : MonoBehaviour {
     void Update ()
     {
         //Gallary Key input
-        if (Input.GetKeyDown(KeyCode.Tab))
+        if (Input.GetKeyDown(GallaryKey))
         {
             isGallary = !isGallary;
             ToggleGallary();
@@ -83,7 +86,7 @@ public class PhoneGallary : MonoBehaviour {
             if (gallaryImages.Count > 0)
             {
                 //Delete Photo
-                if (Input.GetKeyDown(KeyCode.R))
+                if (Input.GetKeyDown(DeleteKey))
                 {
                     isCheckDeletion = true;
                     deleteWindow.SetActive(true);

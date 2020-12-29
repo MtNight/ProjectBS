@@ -19,11 +19,21 @@ public class PeopleMove : MonoBehaviour
     public GameObject trafficSystem;
     float cool = 0;
 
+    public GameObject player;
+    Renderer childRenderer;
+    Rigidbody rigidbody;
+    Animator animator;
+
+
     void Start()
     {
         wayPointNavi = GetComponent<WayPointNavigator>();
 
-        moveSpeed = 30 + Random.Range(-2.5f, 2.5f);
+        moveSpeed = 30 + Random.Range(-5f, 5f);
+
+        childRenderer = transform.GetChild(0).GetComponent<Renderer>();
+        rigidbody = GetComponent<Rigidbody>();
+        animator = GetComponent<Animator>();
 
         StartCoroutine(BehaveChange());
     }
@@ -48,7 +58,15 @@ public class PeopleMove : MonoBehaviour
             }
             else
             {
-                GetComponent<Rigidbody>().AddForce(transform.forward * moveSpeed, ForceMode.Impulse);
+                if (childRenderer.isVisible || (player != null && Vector3.Distance(transform.position, player.transform.position) < 256)) 
+                {
+                    rigidbody.AddForce(transform.forward * moveSpeed, ForceMode.Impulse);
+                    animator.enabled = true;
+                }
+                else
+                {
+                    animator.enabled = false;
+                }
             }
 
             //stop reposition
@@ -60,6 +78,13 @@ public class PeopleMove : MonoBehaviour
             prevPos = transform.position;
             if (moveVec != Vector3.zero) prevVec = moveVec;
             cool -= Time.deltaTime;
+        }
+
+        if (transform.position.y < 0)
+        {
+            Vector3 resetPos = transform.position;
+            resetPos.y = 3;
+            transform.position = resetPos;
         }
     }
 
@@ -144,13 +169,13 @@ public class PeopleMove : MonoBehaviour
         {
             if (stop)
             {
-                GetComponent<Animator>().SetFloat("Speed_f", 0.2f);
-                GetComponent<Animator>().SetInteger("Animation_int", Random.Range(0, 3));
+                animator.SetFloat("Speed_f", 0.2f);
+                animator.SetInteger("Animation_int", Random.Range(0, 3));
             }
             else
             {
-                GetComponent<Animator>().SetFloat("Speed_f", 0.3f);
-                GetComponent<Animator>().SetInteger("Animation_int", 0);
+                animator.SetFloat("Speed_f", 0.3f);
+                animator.SetInteger("Animation_int", 0);
             }
         }
         isIdle = stop;

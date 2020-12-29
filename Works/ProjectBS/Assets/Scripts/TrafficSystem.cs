@@ -84,11 +84,7 @@ public class TrafficSystem : MonoBehaviour
         }
         changeLight();
 
-        StartCoroutine(SpawnVehicle(0));
-        StartCoroutine(SpawnVehicle(1));
-        StartCoroutine(SpawnVehicle(2));
-        StartCoroutine(SpawnVehicle(3));
-        StartCoroutine(TrafficSchedule());
+        StartCoroutine(SpawnVehicleInit());
     }
     
     void Update()
@@ -111,18 +107,52 @@ public class TrafficSystem : MonoBehaviour
         return 1;
     }
 
-    IEnumerator SpawnVehicle(int dir)
+    void SpawnVehicle(int dir, Vector3 pos)
+    {
+        GameObject prefab = Instantiate(vehiclePrefabs[chooseVehiclePrefab()]);
+
+        prefab.transform.eulerAngles = new Vector3(0, dir * 90, 0);
+        prefab.transform.position = pos;
+        prefab.transform.SetParent(this.transform);
+        prefab.GetComponent<VehiclesMove>().direction = dir;
+    }
+    IEnumerator SpawnVehicleInit()
+    {
+        while (true)
+        {
+            if (transform.childCount < 100)
+            {
+                int dir = Random.Range(0, 4);
+                Vector3 pos = spawnPoint[dir][Random.Range(0, spawnPoint[dir].Length)];
+                switch (dir)
+                {
+                    case 0: { pos -= new Vector3(0, 0, Random.Range(0, 1500)); break; }
+                    case 1: { pos -= new Vector3(Random.Range(0, 1400), 0, 0); break; }
+                    case 2: { pos += new Vector3(0, 0, Random.Range(0, 1500)); break; }
+                    case 3: { pos += new Vector3(Random.Range(0, 1400), 0, 0); break; }
+                }
+                SpawnVehicle(dir, pos);
+            }
+            else
+            {
+                StartCoroutine(SpawnVehicleRegular(0));
+                StartCoroutine(SpawnVehicleRegular(1));
+                StartCoroutine(SpawnVehicleRegular(2));
+                StartCoroutine(SpawnVehicleRegular(3));
+                StartCoroutine(TrafficSchedule());
+                yield break;
+            }
+            yield return new WaitForSeconds(0.1f);
+        }
+    }
+
+    IEnumerator SpawnVehicleRegular(int dir)
     {
         while (true)
         {
             if (transform.childCount < 400)
             {
-                GameObject prefab = Instantiate(vehiclePrefabs[chooseVehiclePrefab()]);
-
-                prefab.transform.eulerAngles = new Vector3(0, dir * 90, 0);
-                prefab.transform.position = spawnPoint[dir][Random.Range(0, spawnPoint[dir].Length)];
-                prefab.transform.SetParent(this.transform);
-                prefab.GetComponent<VehiclesMove>().direction = dir;
+                SpawnVehicle(dir, spawnPoint[dir][Random.Range(0, spawnPoint[dir].Length)]);
             }
             yield return new WaitForSeconds(1.0f + Random.Range(-0.2f, 0.8f));
         }

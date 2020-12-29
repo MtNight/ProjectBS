@@ -245,13 +245,21 @@ public class MissionRead : MonoBehaviour {
     public Missions mission;
     public MissionObject[][] missionObjects;
 
+    List<Dictionary<string, string>> missionData;
+    List<Dictionary<string, string>> objectData;
+
     void Awake()
     {
-        List<Dictionary<string, string>> missionData = CSVReader.Read("TBL_MISSION");
-        List<Dictionary<string, string>> objectData = CSVReader.Read("TBL_OBJECT");
-        
+        missionData = CSVReader.Read("TBL_MISSION");
+        objectData = CSVReader.Read("TBL_OBJECT");
+
+        SetMission();
+    }
+
+    void SetMission()
+    {
         //Select Mission
-        //indexOfMission = UnityEngine.Random.Range(0, missionData.Count - 1);
+        indexOfMission = UnityEngine.Random.Range(0, missionData.Count - 1);
         mission = new Missions(missionData[indexOfMission]);
 
         //Find MissionObject & Initiallize

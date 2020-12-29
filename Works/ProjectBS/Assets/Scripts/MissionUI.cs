@@ -15,6 +15,7 @@ public class MissionUI : MonoBehaviour {
     public Missions mission;
     public MissionObject[][] mObjects;
     public GameObject Navi;
+    public bool isStartGame = false;
 
     //mission check
     GameObject[] uiTexts = new GameObject[10];
@@ -29,51 +30,47 @@ public class MissionUI : MonoBehaviour {
     float UIX;
     float UIXposition;
 
-	void Start ()
+    public KeyCode UIOnOffKey;
+
+	void Awake ()
     {
         MissionManager = transform.parent.parent.gameObject;
         UIXposition = GetComponent<RectTransform>().localPosition.x;
         SetMission();
     }
+    private void Start()
+    {
+        UIXposition = GetComponent<RectTransform>().localPosition.x;
+        Vector3 tmp = GetComponent<RectTransform>().localPosition;
+        tmp.x = UIXposition - GetComponent<RectTransform>().rect.width - 10;
+        GetComponent<RectTransform>().localPosition = tmp;
+    }
 
     private void Update()
     {
-        //UI On/Off key input
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (isStartGame)
         {
-            isUIOpen = !isUIOpen;
-            Debug.Log("Mission UI " + isUIOpen);
-        }
+            //UI On/Off key input
+            if (Input.GetKeyDown(UIOnOffKey))
+            {
+                isUIOpen = !isUIOpen;
+                Debug.Log("Mission UI " + isUIOpen);
+            }
 
-        //UI On/Off movement
-        UIX = GetComponent<RectTransform>().localPosition.x;
-        if (isUIOpen)
-        {
-            //if (UIX < UIXposition)
-            //{
-            //    UIX += UIspeed * Time.deltaTime;
-            //}
-            //if (UIX >= UIXposition)
-            //{
-            //    UIX = UIXposition;
-            //}
-            UIX = Mathf.Lerp(UIX, UIXposition, Time.deltaTime * UIspeed);
+            //UI On/Off movement
+            UIX = GetComponent<RectTransform>().localPosition.x;
+            if (isUIOpen)
+            {
+                UIX = Mathf.Lerp(UIX, UIXposition, Time.deltaTime * UIspeed);
+            }
+            else
+            {
+                UIX = Mathf.Lerp(UIX, UIXposition - GetComponent<RectTransform>().rect.width - 10, Time.deltaTime * UIspeed);
+            }
+            Vector3 tmp = GetComponent<RectTransform>().localPosition;
+            tmp.x = UIX;
+            GetComponent<RectTransform>().localPosition = tmp;
         }
-        else
-        {
-            //if (UIX > UIXposition - GetComponent<RectTransform>().rect.width - 10)
-            //{
-            //    UIX -= UIspeed * Time.deltaTime;
-            //}
-            //if (UIX <= UIXposition - GetComponent<RectTransform>().rect.width - 10)
-            //{
-            //    UIX = UIXposition - GetComponent<RectTransform>().rect.width - 10;
-            //}
-            UIX = Mathf.Lerp(UIX, UIXposition - GetComponent<RectTransform>().rect.width - 10, Time.deltaTime * UIspeed);
-        }
-        Vector3 tmp = GetComponent<RectTransform>().localPosition;
-        tmp.x = UIX;
-        GetComponent<RectTransform>().localPosition = tmp;
     }
 
     //initialize mission's information
@@ -135,5 +132,10 @@ public class MissionUI : MonoBehaviour {
     {
         uiTexts[mObjects.Length].GetComponent<Text>().color = Color.red;
         uiTexts[mObjects.Length].transform.GetChild(0).gameObject.GetComponent<Toggle>().isOn = true;
+    }
+
+    public void InitStartState()
+    {
+        isStartGame = true;
     }
 }
